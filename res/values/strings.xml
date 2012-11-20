@@ -4495,4 +4495,7 @@
     <string name="icon_picker_gallery_title">Gallery</string>
     <string name="icon_picker_pack_title">Icon pack</string>
 
+    <!-- Themes settings  -->
+    <string name="themes_settings_title">Themes</string>
+
  </resources>
