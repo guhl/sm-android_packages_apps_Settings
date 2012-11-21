@@ -58,6 +58,20 @@
         android:fragment="com.android.settings.WirelessSettings"
         android:icon="@drawable/empty_icon" />
 
+    <!-- CODEFIREX -->
+    <header android:title="@string/header_category_codefirex" />
+
+    <!-- CFXSettings -->
+    <header
+        android:id="@+id/cfx_settings"
+        android:icon="@drawable/ic_settings_cfxsettings"
+        android:title="@string/cfx_settings" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.codefirex.settings"
+            android:targetClass="com.codefirex.settings.Settings" />
+    </header>
+
     <!-- DEVICE -->
     <header android:id="@+id/device_section"
         android:title="@string/header_category_device" />
