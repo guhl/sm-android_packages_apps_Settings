@@ -1885,9 +1885,9 @@
     <!-- About phone screen,  setting option name-->
     <string name="kernel_version">Kernel version</string>
     <!-- About device screen, Cpu info. -->
-    <string name="cpu_info">CPU</string>
-    <!-- About phone screen, Free memory info -->
-    <string name="mem_info">Memory</string>
+    <string name="cpu_info">CPU type</string>
+    <!-- About phone screen, total device memory capacity info -->
+    <string name="mem_info">Memory capacity</string>
     <!-- About phone screen,  setting option name-->
     <string name="build_number">Build number</string>
     <!-- About phone screen, build date of ROM -->
