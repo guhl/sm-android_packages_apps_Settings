@@ -25,6 +25,11 @@
         android:fragment="com.android.settings.saber.VolumeRocker"
         android:title="@string/volume_rocker_category_title" />
 
+    <PreferenceScreen
+        android:key="power_menu"
+        android:title="@string/power_menu_title"
+        android:fragment="com.android.settings.saber.PowerMenu" />
+
     <PreferenceCategory
         android:key="category_notification_pulse"
         android:title="@string/category_notification_pulse_title">
