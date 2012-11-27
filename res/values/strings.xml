@@ -4542,4 +4542,7 @@
     <string name="navigation_bar_menu_editable">Editable</string>
     <string name="navigation_bar_menu_locked">Locked</string>
 
- </resources>
+    <!-- Setting checkbox summary for displaying USB debugging notification -->
+    <string name="adb_notify">USB debugging notify</string>
+    <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
+</resources>
