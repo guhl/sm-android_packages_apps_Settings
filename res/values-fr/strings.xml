@@ -1797,6 +1797,10 @@
     <string name="selinux_status_disabled" msgid="924551035552323327">"Désactivé"</string>
     <string name="selinux_status_permissive" msgid="6004965534713398778">"Permissif"</string>
     <string name="selinux_status_enforcing" msgid="2252703756208463329">"Application"</string>
+	
+    <!-- User settings -->
+    <skip/>
+	
     <string name="user_settings_title" msgid="6151874007858148344">"Utilisateurs"</string>
     <string name="user_you_section" msgid="6247838798859425408">"Vous"</string>
     <string name="user_list_title" msgid="8866161687358773982">"Autres utilisateurs"</string>
@@ -1836,4 +1840,13 @@
     <string name="user_picture_title" msgid="7297782792000291692">"ID de photo"</string>
     <string name="cell_broadcast_settings" msgid="8415582011920085222">"Diffusions cellulaires"</string>
     <string name="cell_broadcast_settings_summary" msgid="3301339398950905913">"Sélectionnez les types d\'alertes d\'urgence à afficher."</string>
+
+    <!-- CFX Settings -->
+    <string name="cfx_settings">Paramètres CFX</string>
+
+
+    <!-- Setting checkbox summary for displaying USB debugging notification -->
+    <string name="adb_notify">Notifier débogage USB</string>
+    <string name="adb_notify_summary">Afficher une notification lorsque le débogage USB est connecté</string>
+
 </resources>
