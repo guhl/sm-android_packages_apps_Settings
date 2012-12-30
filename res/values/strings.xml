@@ -4695,5 +4695,9 @@
     <string name="pie_control_trigger_top">Top screen border</string>
     <string name="pie_control_trigger_top_summary">Only navigation will be displayed at top</string>
 
-    <!-- SABER MODS END -->
+    <!--- Lock clock -->
+    <string name="lock_clock_title">Clock widget</string>
+    <string name="lock_clock_summary">View or change how the \'Lock Clock\' Home and Lock screen widgets will display</string>
+
+   <!-- SABER MODS END -->
 </resources>
