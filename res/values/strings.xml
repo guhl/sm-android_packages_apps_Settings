@@ -4699,5 +4699,13 @@
     <string name="sabermod_waiver_title">Waiver</string>
     <string name="sabermod_waiver_body">Changing this setting may be against your state or government laws.\n\nIn selecting \'OK\' below, you acknowledge this warning and waive, indemnify and hold harmless SaberMod and its contributors from all legal liabilities.</string>
 
+    <!--  User Interface -->
+    <string name="user_interface_title">User interface</string>
+    <string name="dual_pane_prefs_title">Dual pane preferences</string>
+    <string name="dual_pane_prefs_summary">Choose when to use dual pane preferences</string>
+    <string name="dual_pane_prefs_on">Always</string>
+    <string name="dual_pane_prefs_off">Never</string>
+    <string name="dual_pane_prefs_landscape">Only in landscape</string>
+
    <!-- SABER MODS END -->
 </resources>

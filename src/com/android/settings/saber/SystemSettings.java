@@ -38,6 +38,7 @@ public class SystemSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "SystemSettings";
 
+    private static final String KEY_USER_INTERFACE = "user_interface";
     private static final String KEY_STATUS_BAR = "status_bar";
     private static final String KEY_NAVIGATION_BAR_CATEGORY = "navigation_bar_category";
     private static final String KEY_NAVIGATION_BAR = "navigation_bar";
@@ -80,6 +81,7 @@ public class SystemSettings extends SettingsPreferenceFragment implements
             prefScreen.removePreference(findPreference(KEY_NAVIGATION_BAR));
             prefScreen.removePreference((PreferenceCategory) findPreference(KEY_NAVIGATION_BAR_CATEGORY));
             prefScreen.removePreference(findPreference(KEY_POWER_MENU));
+            prefScreen.removePreference(findPreference(KEY_USER_INTERFACE));
         }
 
         // Preferences that applies to all users
