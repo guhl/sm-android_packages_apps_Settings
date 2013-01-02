@@ -4408,21 +4408,20 @@
     <!-- Cell Broadcast settings description [CHAR LIMIT=100] -->
     <string name="cell_broadcast_settings_summary">Select the types of emergency alerts to display.</string>
 
-    <!-- BUILD TWEAKS  -->
-    <!-- rasbeanjeally Settings  -->
+    <!-- SABER MODS  -->
     <!-- Settings main menu category heading -->
-    <string name="header_category_interface">RASMODS</string>
+    <string name="header_category_interface">SABERMODS</string>
     
     <string name="ok">OK</string>
     <string name="profile_applist_title">Applications</string>
     <string name="profile_reset_title">Reset</string>
         
     <!-- System Interface settings  -->
-    <string name="system_settings_title">Build Tweaks</string>
-    <string name="system_interface_title">Build Tweaks</string>
+    <string name="system_settings_title">System Mods</string>
+    <string name="system_interface_title">System Mods</string>
 
     <!-- About phone screen, build date of ROM -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">Saber build date</string>
     <string name="build_date_default">2012-01-01-0000</string>
 
     <!-- Sound settings screen, volumes -->

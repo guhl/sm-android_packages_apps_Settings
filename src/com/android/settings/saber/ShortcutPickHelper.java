@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.rascarlo;
+package com.android.settings.saber;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -41,7 +41,7 @@ import android.widget.ExpandableListView;
 import android.widget.TextView;
 
 import com.android.settings.R;
-import com.android.settings.rascarlo.ShortcutPickHelper.AppExpandableAdapter.GroupInfo;
+import com.android.settings.saber.ShortcutPickHelper.AppExpandableAdapter.GroupInfo;
 
 public class ShortcutPickHelper {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.rascarlo;
+package com.android.settings.saber;
 
 import java.io.File;
 import java.io.IOException;
@@ -58,7 +58,7 @@ import com.android.internal.widget.multiwaveview.GlowPadView;
 import com.android.internal.widget.multiwaveview.TargetDrawable;
 import com.android.settings.R;
 import com.android.settings.Utils;
-import com.android.settings.rascarlo.IconPicker.OnIconPickListener;
+import com.android.settings.saber.IconPicker.OnIconPickListener;
 
 public class LockscreenTargets extends Fragment implements ShortcutPickHelper.OnPickListener,
     GlowPadView.OnTriggerListener, OnIconPickListener {
