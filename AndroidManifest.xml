@@ -1468,6 +1468,7 @@
                 android:resource="@id/wireless_settings" />
         </activity>
 
+<<<<<<< HEAD
         <activity android:name="Settings$DreamSettingsActivity"
                 android:label="@string/screensaver_settings_title"
                 android:taskAffinity=""
@@ -1484,12 +1485,12 @@
                 android:resource="@id/display_settings" />
         </activity>
 
-        <!-- BUILD TWEAKS START -->
+        <!-- SABER MODS START -->
 
-        <activity android:name=".rascarlo.SystemSettings" />
-        <activity android:name=".rascarlo.LockscreenTargets" />
+        <activity android:name=".saber.SystemSettings" />
+        <activity android:name=".saber.LockscreenTargets" />
 
-        <!-- BUILD TWEAKS END -->
+        <!-- SABER MODS END -->
 
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"

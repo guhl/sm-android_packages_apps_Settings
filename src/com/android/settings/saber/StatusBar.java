@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.rascarlo;
+package com.android.settings.saber;
 
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
