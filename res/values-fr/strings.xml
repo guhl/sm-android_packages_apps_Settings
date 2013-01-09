@@ -1841,6 +1841,13 @@
     <string name="cell_broadcast_settings" msgid="8415582011920085222">"Diffusions cellulaires"</string>
     <string name="cell_broadcast_settings_summary" msgid="3301339398950905913">"Sélectionnez les types d\'alertes d\'urgence à afficher."</string>
 
+    <!-- Wi-Fi settings screen, advanced, title of the item to show the Wi-Fi device's MAC address. -->
+    <string name="wifi_setting_countrycode_title">Code région Wi-Fi</string>
+    <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+    <string name="wifi_setting_countrycode_summary">Spécifier le code de région pour le Wi-Fi</string>
+    <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+    <string name="wifi_setting_countrycode_error">Un problème est intervenu. Code région non défini.</string>
+
     <!-- CFX Settings -->
     <string name="cfx_settings">Paramètres CFX</string>
 
@@ -1848,5 +1855,9 @@
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify">Notifier débogage USB</string>
     <string name="adb_notify_summary">Afficher une notification lorsque le débogage USB est connecté</string>
+
+    <!-- cfX specific sound settings
+    <string name="camera_sounds">Camera sounds</string> ** TODO ** -->
+    <string name="safe_headset_volume_title">Volume de confort Ecouteurs</string>
 
 </resources>
