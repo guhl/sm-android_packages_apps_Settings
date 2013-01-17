@@ -1489,6 +1489,7 @@
 
         <activity android:name=".saber.SystemSettings" />
         <activity android:name=".saber.LockscreenTargets" />
+        <activity android:name=".notificationlight.NotificationLightSettings" />
 
         <!-- SABER MODS END -->
 

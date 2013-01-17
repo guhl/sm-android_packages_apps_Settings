@@ -24,6 +24,7 @@ import android.os.ServiceManager;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceCategory;
+import android.preference.PreferenceScreen;
 import android.provider.Settings;
 import android.provider.Settings.SettingNotFoundException;
 import android.view.IWindowManager;
@@ -41,8 +42,11 @@ public class SystemSettings extends SettingsPreferenceFragment implements
     private static final String KEY_NAV_BUTTONS_HEIGHT = "nav_buttons_height";
     private static final String QUICK_SETTINGS_CATEGORY = "quick_settings_category";
     private static final String QUICK_PULLDOWN = "quick_pulldown";
+    private static final String KEY_NOTIFICATION_PULSE_CATEGORY = "category_notification_pulse";
+    private static final String KEY_NOTIFICATION_PULSE = "notification_pulse";
 
     private ListPreference mNavButtonsHeight;
+    private PreferenceScreen mNotificationPulse;
     PreferenceCategory mQuickSettingsCategory;
     ListPreference mQuickPulldown;
 
@@ -58,6 +62,17 @@ public class SystemSettings extends SettingsPreferenceFragment implements
                  Settings.System.NAV_BUTTONS_HEIGHT, 48);
         mNavButtonsHeight.setValue(String.valueOf(statusNavButtonsHeight));
         mNavButtonsHeight.setSummary(mNavButtonsHeight.getEntry());
+
+        // Notification lights
+        mNotificationPulse = (PreferenceScreen) findPreference(KEY_NOTIFICATION_PULSE);
+        if (mNotificationPulse != null) {
+            if (!getResources().getBoolean(com.android.internal.R.bool.config_intrusiveNotificationLed)) {
+                getPreferenceScreen().removePreference(mNotificationPulse);
+                getPreferenceScreen().removePreference((PreferenceCategory) findPreference(KEY_NOTIFICATION_PULSE_CATEGORY));
+            } else {
+                updateLightPulseDescription();
+            }
+        }
         
         // Quick Settings category and pull down. Only show on phones
         mQuickSettingsCategory = (PreferenceCategory) getPreferenceScreen().findPreference(QUICK_SETTINGS_CATEGORY);
@@ -95,6 +110,15 @@ public class SystemSettings extends SettingsPreferenceFragment implements
         }
     }
 
+   private void updateLightPulseDescription() {
+        if (Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.NOTIFICATION_LIGHT_PULSE, 0) == 1) {
+            mNotificationPulse.setSummary(getString(R.string.notification_light_enabled));
+        } else {
+            mNotificationPulse.setSummary(getString(R.string.notification_light_disabled));
+        }
+    }
+
     private void updatePulldownSummary(int value) {
         Resources res = getResources();
         if (value == 0) {
@@ -108,7 +132,7 @@ public class SystemSettings extends SettingsPreferenceFragment implements
         }
     }
 
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
+     public boolean onPreferenceChange(Preference preference, Object objValue) {
         if (preference == mNavButtonsHeight) {
             int statusNavButtonsHeight = Integer.valueOf((String) objValue);
             int index = mNavButtonsHeight.findIndexOfValue((String) objValue);
@@ -129,6 +153,7 @@ public class SystemSettings extends SettingsPreferenceFragment implements
     @Override
     public void onResume() {
         super.onResume();
+        updateLightPulseDescription();
     }
 
     @Override
