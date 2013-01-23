@@ -114,7 +114,6 @@ public class IncreasingRingPreference extends VolumePreference implements
         updateEnabledStates();
     }
 
-    @Override
     public boolean onVolumeChange(SeekBarVolumizer volumizer, int value) {
         boolean result = super.onVolumeChange(volumizer, value);
         if (result) {
