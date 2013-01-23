@@ -114,13 +114,13 @@ public class IncreasingRingPreference extends VolumePreference implements
         updateEnabledStates();
     }
 
-    public boolean onVolumeChange(SeekBarVolumizer volumizer, int value) {
+    /*public boolean onVolumeChange(SeekBarVolumizer volumizer, int value) {
         boolean result = super.onVolumeChange(volumizer, value);
         if (result) {
             updateVolumeNoticeVisibility(value);
         }
         return result;
-    }
+    }*/
 
     private void updateVolumeNoticeVisibility(int value) {
         boolean visible = value > mMinVolumeSeekBar.getSecondaryProgress();
