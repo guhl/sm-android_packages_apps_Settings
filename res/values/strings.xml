@@ -1876,9 +1876,19 @@
     <!-- About phone screen,  setting option name-->
     <string name="baseband_version">Baseband version</string>
     <!-- About phone screen,  setting option name-->
+    <string name="mod_version">SaberMod version</string>
+    <string name="mod_version_default">Unknown</string>
+    <!-- About phone screen,  setting option name-->
     <string name="kernel_version">Kernel version</string>
+    <!-- About device screen, Cpu info. -->
+    <string name="cpu_info">CPU</string>
+    <!-- About phone screen, Free memory info -->
+    <string name="mem_info">Memory</string>
     <!-- About phone screen,  setting option name-->
     <string name="build_number">Build number</string>
+    <!-- About phone screen, build date of ROM -->
+    <string name="build_date">Saber build date</string>
+    <string name="build_date_default">2012-01-01-0000</string>
     <!-- About phone screen,  setting option name-->
     <string name="selinux_status">SELinux status</string>
 
@@ -4403,15 +4413,6 @@
     <string name="system_settings_title">System Mods</string>
     <string name="system_interface_title">System Mods</string>
 
-    <!-- About phone screen, build date of ROM -->
-    <string name="build_date">Saber build date</string>
-    <string name="build_date_default">2012-01-01-0000</string>
-    <!-- About device screen, Cpu info. -->
-    <string name="cpu_info">CPU</string>
-    <!-- About phone screen, Free memory info -->
-    <string name="mem_info">Memory</string>
-    <!-- About phone screen, status item label -->
-
     <!-- Sound settings screen, volumes -->
     <string name="link_volume_ringtones">Link ringtone &amp; notifications volumes</string>
     <string name="link_volume_mutes">Silent mode affects notifications</string>
@@ -4524,9 +4525,5 @@
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify">USB debugging notify</string>
     <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
-
-    <!-- About phone screen,  setting option name-->
-    <string name="mod_version">SaberMod version</string>
-    <string name="mod_version_default">Unknown</string>
 
 </resources>
