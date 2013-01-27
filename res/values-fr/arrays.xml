@@ -295,4 +295,20 @@
     <item msgid="5077768429488260031">"Ne jamais autoriser"</item>
     <item msgid="1417929597727989746">"Toujours autoriser"</item>
   </string-array>
+  
+    <!-- Volume Overlay options. -->
+    <string-array name="volume_overlay_entries">
+        <item>Simple</item>
+        <item>Extensible</item>
+        <item>Etendu</item>
+        <item>Aucun</item>
+    </string-array>
+
+	<!-- Silent mode options. -->
+    <string-array name="silent_mode_entries">
+        <item>Désactivé</item>
+        <item>Vibration</item>
+        <item>Muet</item>
+    </string-array>
+
 </resources>
