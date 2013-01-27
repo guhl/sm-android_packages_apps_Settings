@@ -1834,4 +1834,49 @@
     <string name="user_picture_title" msgid="7297782792000291692">"ID fotografie"</string>
     <string name="cell_broadcast_settings" msgid="8415582011920085222">"Hromadné zasielanie správ v rámci bunky"</string>
     <string name="cell_broadcast_settings_summary" msgid="3301339398950905913">"Vyberte typy tiesňových upozornení, ktoré sa majú zobraziť."</string>
+    <string name="safe_headset_volume_title">Bezpečná hlasitosť headsetu</string>
+    <string name="quiet_hours_title">Tiché hodiny</string>
+    <string name="quiet_hours_summary">Nastavte si čas, v ktorom by malo byť zariadenie ticho</string>
+    <string name="quiet_hours_note_title">Poznámka</string>
+    <string name="quiet_hours_note_summary">Prichádzajúce hovory sa budú správať ako obvykle počas tichých hodín.</string>
+    <string name="quiet_hours_enabled">Povoliť tiché hodiny</string>
+    <string name="quiet_hours_enabled_on">Tiché hodiny budú vynútené</string>
+    <string name="quiet_hours_enabled_off">Oznámenia budú fungovať normálne</string>
+    <string name="quiet_hours_start">Štart tichých hodín</string>
+    <string name="quiet_hours_start_summary">Kedy vynútiť štart tichých hodín</string>
+    <string name="quiet_hours_end">Koniec tichých hodín</string>
+    <string name="quiet_hours_end_summary">Kedy zastaviť tiché hodiny</string>
+    <string name="quiet_hours_mute">Tiché oznámenia</string>
+    <string name="quiet_hours_mute_on">Nebude prehraný žiadny zvuk</string>
+    <string name="quiet_hours_mute_off">Zvuky budú normálne prehrané</string>
+    <string name="quiet_hours_still">Zakázanie vibrácií</string>
+    <string name="quiet_hours_still_on">Zariadenie nebude vybrovať</string>
+    <string name="quiet_hours_still_off">Zariadenie bude normálne vybrovať</string>
+    <string name="quiet_hours_dim">Zakázať osvetlenie oznámení</string>
+    <string name="quiet_hours_dim_on">Osvetlenie oznámení bude zakázané</string>
+    <string name="quiet_hours_dim_off">Osvetlenie oznámení bude normálne fungovať</string>
+    <string name="quiet_hours_haptic">Zakázať hmatovú odozvu</string>
+    <string name="quiet_hours_haptic_on">Hmatová odozva bude zakázaná</string>
+    <string name="quiet_hours_haptic_off">Hmatová odozva bude normálne fungovať</string>
+    <string name="quiet_hours_active_from">Aktívne od</string>
+    <string name="quiet_hours_active_to">do</string>
+    <string name="start_time_title">Štart</string>
+    <string name="end_time_title">Koniec</string>
+    <string name="increasing_ring_title">Vzostupné vyzváňanie</string>
+    <string name="checkbox_increasing_ring">Povoliť</string>
+    <string name="increasing_ring_min_volume_title">Počiatočná hodnota zvonenia</string>
+    <string name="increasing_ring_volume_notice">Upozornenie:\nAk bude počiatočná hodnota zvonenia vyššia ako teraz nastavená hodnota zvonenia, funkcia vzostupného zvonenia nebude aktívna.</string>
+    <string name="increasing_ring_interval_title">Interval zvyšovania</string>
+    <string name="increasing_ring_interval_eachring">Po každom zazvonení</string>
+    <string name="increasing_ring_interval_half_second">0.5 sekundy</string>
+    <string name="increasing_ring_interval_1second">1 sekundu</string>
+    <string name="increasing_ring_interval_2seconds">2 sekundy</string>
+    <string name="increasing_ring_interval_3seconds">3 sekundy</string>
+    <string name="increasing_ring_interval_5seconds">5 sekúnd</string>
+    <string name="increasing_ring_interval_10seconds">10 sekúnd</string>
+    <string name="link_volume_ringtones">Väzba hlasitosti zvonenia a upozornení</string>
+    <string name="link_volume_mutes">Tichý režim ovplyvňuje oznámenia</string>
+    <string name="volume_overlay_title">Štýl panela hlasitosti</string>
+    <string name="silent_mode_title">Tichý režim</string>
+    <string name="volume_ring_only_description">Zvonenie</string>
 </resources>
