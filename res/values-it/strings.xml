@@ -765,6 +765,8 @@
     <string name="kernel_version" msgid="9192574954196167602">"Versione kernel"</string>
     <string name="build_number" msgid="3075795840572241758">"Numero build"</string>
     <string name="selinux_status" msgid="6212165375172061672">"Stato di SELinux"</string>
+    <!-- About phone screen, modversion -->
+    <string name="mod_version">Versione cfX</string>
     <string name="device_info_not_available" msgid="8062521887156825182">"Non disponibile"</string>
     <string name="device_status_activity_title" msgid="1411201799384697904">"Stato"</string>
     <string name="device_status" msgid="607405385799807324">"Stato"</string>
@@ -1803,7 +1805,7 @@
     <string name="user_summary_inactive" msgid="3758296246095054572">"Non attivo"</string>
     <string name="user_summary_not_set_up" msgid="8778205026866794909">"Non configurato"</string>
     <string name="user_owner" msgid="3879126011135546571">"Proprietario"</string>
-    <string name="user_nickname" msgid="5148818000228994488">"Nickname"</string>
+    <string name="user_nickname" msgid="5148818000228994488">"Soprannome"</string>
     <string name="user_add_user_title" msgid="3961861593718285403">"Aggiungi nuovo utente"</string>
     <string name="user_add_user_message_long" msgid="2278524063301283723">"Puoi condividere il dispositivo con altri utenti creando altri utenti. Ogni utente ha un proprio spazio personalizzabile con applicazioni, sfondo e così via. Gli utenti possono anche regolare le impostazioni del tablet, come il Wi-Fi, che riguardano tutti."\n\n"Dopo la creazione di un nuovo utente, quella persona deve eseguire una procedura di configurazione."\n\n"Qualsiasi utente può accettare le autorizzazioni delle applicazioni aggiornate per conto di tutti gli altri utenti."</string>
     <string name="user_add_user_message_short" msgid="3310933423737035428">"Dopo la creazione di un nuovo utente, quella persona deve eseguire una procedura di configurazione."\n\n"Qualsiasi utente può accettare le autorizzazioni delle applicazioni aggiornate per conto di tutti gli altri utenti."</string>
@@ -1834,4 +1836,60 @@
     <string name="user_picture_title" msgid="7297782792000291692">"ID foto"</string>
     <string name="cell_broadcast_settings" msgid="8415582011920085222">"Cell broadcast"</string>
     <string name="cell_broadcast_settings_summary" msgid="3301339398950905913">"Seleziona i tipi di avvisi di emergenza da visualizzare."</string>
+
+    <string name="safe_headset_volume_title">Safe headset volume</string>
+
+    <!-- Quiet hours -->
+    <string name="quiet_hours_title">Ore di quiete</string>
+    <string name="quiet_hours_summary">Imposta le ore in cui il dispositivo non dovrebbe disturbare</string>
+    <string name="quiet_hours_note_title">Nota</string>
+    <string name="quiet_hours_note_summary">Le chiamate in ingresso si comporteranno come al solito durante le ore di quiete</string>
+    <string name="quiet_hours_enabled">Abilita ore di quiete</string>
+    <string name="quiet_hours_enabled_on">Le ore di quiete saranno attivate</string>
+    <string name="quiet_hours_enabled_off">Le notifiche funzioneranno normalmente</string>
+    <string name="quiet_hours_start">Inizio ore di quiete</string>
+    <string name="quiet_hours_start_summary">Quando iniziare le ore di quiete</string>
+    <string name="quiet_hours_end">Fine ore di quiete</string>
+    <string name="quiet_hours_end_summary">Quando finire le ore di quiete</string>
+    <string name="quiet_hours_mute">Notifiche silenziose</string>
+    <string name="quiet_hours_mute_on">Nessun suono verrà riprodotto</string>
+    <string name="quiet_hours_mute_off">I suoni verranno riprotti normalmente</string>
+    <string name="quiet_hours_still">Disabilita vibrazione</string>
+    <string name="quiet_hours_still_on">Il dispositivo non vibrerà</string>
+    <string name="quiet_hours_still_off">Il dispositivo vibrerà normalmente</string>
+    <string name="quiet_hours_dim">Disabilita led notifica</string>
+    <string name="quiet_hours_dim_on">Il led di notifica sarà disabilitato</string>
+    <string name="quiet_hours_dim_off">Il led di notifica funzionerà normalmente</string>
+    <string name="quiet_hours_haptic">Disabilita Haptic feedback</string>
+    <string name="quiet_hours_haptic_on">Haptic feedback sarà disabilitato</string>
+    <string name="quiet_hours_haptic_off">Haptic feedback funzionerà normalmente</string>
+    <string name="quiet_hours_active_from">Attivo da</string>
+    <string name="quiet_hours_active_to">a</string>
+
+    <!-- time range preference -->
+    <string name="start_time_title">Inizio</string>
+    <string name="end_time_title">Fine</string>
+
+    <string name="increasing_ring_title">Suoneria incrementale</string>
+    <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->
+    <string name="checkbox_increasing_ring">Abilita</string>
+    <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
+    <string name="increasing_ring_min_volume_title">Volume iniziale suoneria</string>
+    <string name="increasing_ring_volume_notice">Nota:\nSe il volume inziale è impostato ad un valore maggiore del volume suoneria, viene utilizzato il valore del volume suoneria.</string>
+    <string name="increasing_ring_interval_title">Intervallo di incremento</string>
+    <string name="increasing_ring_interval_eachring">Ad ogni squillo</string>
+    <string name="increasing_ring_interval_half_second">0.5 secondi</string>
+    <string name="increasing_ring_interval_1second">1 secondo</string>
+    <string name="increasing_ring_interval_2seconds">2 secondi</string>
+    <string name="increasing_ring_interval_3seconds">3 secondi</string>
+    <string name="increasing_ring_interval_5seconds">5 secondi</string>
+    <string name="increasing_ring_interval_10seconds">10 secondi</string>
+
+    <string name="link_volume_ringtones">Collega volumi suoneria e notifiche</string>
+    <string name="link_volume_mutes">Il modo silenzioso condiziona le notifiche</string>
+
+    <!-- Sound settings screen -->
+    <string name="volume_overlay_title">Stile pannello volume</string>
+    <string name="silent_mode_title">Modo silenzioso</string>
+
 </resources>

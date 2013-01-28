@@ -295,4 +295,15 @@
     <item msgid="5077768429488260031">"Nikdy nepovoliť"</item>
     <item msgid="1417929597727989746">"Vždy povoliť"</item>
   </string-array>
+  <string-array name="volume_overlay_entries">
+    <item>Jednoduchý</item>
+    <item>Rozšíriteľný</item>
+    <item>Roztiahnutý</item>
+    <item>Žiadny</item>
+  </string-array>
+  <string-array name="silent_mode_entries">
+    <item>Vypnutý</item>
+    <item>Vibrácie</item>
+    <item>Tichý</item>
+  </string-array>
 </resources>
