@@ -1864,43 +1864,43 @@
     <string name="safe_headset_volume_title">Volume de confort Ecouteurs</string>
 
     <!-- Quiet hours -->
-    <string name="quiet_hours_title">Heures en mode Silence</string>
+    <string name="quiet_hours_title">Heures silencieuses</string>
     <string name="quiet_hours_summary">Configurer les heures pendant lesquelles l\'appareil doit être silencieux</string>
     <string name="quiet_hours_note_title">Note</string>
-    <string name="quiet_hours_note_summary">Les appels entrants se comportent comme d\'habitude pendant les heures silencieuses</string>
-    <string name="quiet_hours_enabled">Activer le mode Silence</string>
-    <string name="quiet_hours_enabled_on">Le mode Silence sera appliqué</string>
-    <string name="quiet_hours_enabled_off">Les notifications fonctionneront normalement</string>
-    <string name="quiet_hours_start">Début du mode Veille</string>
-    <string name="quiet_hours_start_summary">Heure à laquelle le mode Silence démarre</string>
-    <string name="quiet_hours_end">Fin du mode Silence</string>
-    <string name="quiet_hours_end_summary">Heure à laquelle le mode Silence cesse de s\'appliquer</string>
-    <string name="quiet_hours_mute">Notifications en mode Muet</string>
-    <string name="quiet_hours_mute_on">Aucun son ne sera émis</string>
-    <string name="quiet_hours_mute_off">Les sons fonctionneront comme d\'habitude</string>
+    <string name="quiet_hours_note_summary">Les appels entrants se comportent normalement pendant les heures silencieuses</string>
+    <string name="quiet_hours_enabled">Heures silencieuses</string>
+    <string name="quiet_hours_enabled_on">Heures silencieuses activées</string>
+    <string name="quiet_hours_enabled_off">Fonctionnement habituel</string>
+    <string name="quiet_hours_start">Début des Heures silencieuses </string>
+    <string name="quiet_hours_start_summary">Heure à laquelle le mode Heures silencieuses débute</string>
+    <string name="quiet_hours_end">Fin des Heures silencieuses</string>
+    <string name="quiet_hours_end_summary">Heure à laquelle le mode Heures silencieuses prend fin</string>
+    <string name="quiet_hours_mute">Désactiver notifications</string>
+    <string name="quiet_hours_mute_on">Aucun son de notification</string>
+    <string name="quiet_hours_mute_off">Fonctionnement habituel</string>
     <string name="quiet_hours_still">Désactiver les vibrations</string>
-    <string name="quiet_hours_still_on">L\'appareil ne vibrera pas</string>
-    <string name="quiet_hours_still_off">L\'appareil vibrera comme d\'habitude</string>
+    <string name="quiet_hours_still_on">Vibreur désactivé</string>
+    <string name="quiet_hours_still_off">Vibreur actif</string>
     <string name="quiet_hours_dim">Désactiver les clignotements</string>
     <string name="quiet_hours_dim_on">Les notifications ne sont pas signalées par clignotement</string>
-    <string name="quiet_hours_dim_off">Le clignotement pour notifications fonctionnera normalement</string>
+    <string name="quiet_hours_dim_off">Clignotements habituels</string>
     <string name="quiet_hours_haptic">Désactiver la vibration au toucher</string>
-    <string name="quiet_hours_haptic_on">La vibration au toucher sera désactivée</string>
-    <string name="quiet_hours_haptic_off">La vibration au toucher fonctionnera normalement</string>
-    <string name="quiet_hours_active_from">Activer de</string>
+    <string name="quiet_hours_haptic_on">La vibration au toucher est désactivée</string>
+    <string name="quiet_hours_haptic_off">La vibration au toucher fonctionne normalement</string>
+    <string name="quiet_hours_active_from">Activées de</string>
     <string name="quiet_hours_active_to">à</string>
 
     <!-- time range preference -->
     <string name="start_time_title">Début</string>
     <string name="end_time_title">Fin</string>
 
-    <string name="increasing_ring_title">Sonnerie ascendante</string>
+    <string name="increasing_ring_title">Sonnerie progressive</string>
     <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->
     <string name="checkbox_increasing_ring">Activer</string>
     <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
-    <string name="increasing_ring_min_volume_title">Volume début de sonnerie</string>
-    <string name="increasing_ring_volume_notice">Note:\nAs le volume de début est plus élevé que le volume de la sonnerie, le son joué utilisera le volume de la sonnerie.</string>
-    <string name="increasing_ring_interval_title">Augmenter l\'intervalle</string>
+    <string name="increasing_ring_min_volume_title">Volume de départ</string>
+    <string name="increasing_ring_volume_notice">Note:\nAs le volume de départ est plus élevé que le volume de la sonnerie, le son joué utilisera le volume de la sonnerie.</string>
+    <string name="increasing_ring_interval_title">Intervalle de progression</string>
     <string name="increasing_ring_interval_eachring">A chaque sonnerie</string>
     <string name="increasing_ring_interval_half_second">0.5 secondes</string>
     <string name="increasing_ring_interval_1second">1 seconde</string>
@@ -1909,13 +1909,15 @@
     <string name="increasing_ring_interval_5seconds">5 secondes</string>
     <string name="increasing_ring_interval_10seconds">10 secondes</string>
 
-    <string name="link_volume_ringtones">Volumes sonnerie &amp; notifications liés</string>
-    <string name="link_volume_mutes">Le mode silencieux affecte les notifications</string>
+    <string name="link_volume_ringtones">Lier Volumes sonnerie &amp; notifications</string>
+    <string name="link_volume_mutes">Lier Mode Silencieux pour sonnerie &amp notifications</string>
 
     <!-- Sound settings screen -->
-    <string name="volume_overlay_title">Style du panneau Volume</string>
+    <string name="volume_overlay_title">Panneau Contrôles du volume</string>
     <string name="silent_mode_title">Mode silencieux</string>
     <string name="volume_ring_only_description">Sonnerie</string>
 
-
+    <string name="volume_adjust_sounds_enable_title">Son pour régler le volume</string>
+    <!-- Sound settings screen, setting check box summary -->
+    <string name="volume_adjust_sounds_enable_summary">Jouer un son lors du réglage du volume au moyen des boutons matériels</string>
 </resources>
