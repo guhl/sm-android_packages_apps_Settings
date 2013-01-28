@@ -4502,4 +4502,7 @@
     <string name="silent_mode_title">Silent mode</string>
     <string name="volume_ring_only_description">Ringtone</string>
 
+    <string name="volume_adjust_sounds_enable_title">Volume adjust sound</string>
+    <!-- Sound settings screen, setting check box summary -->
+    <string name="volume_adjust_sounds_enable_summary">Play sound when adjusting volume with hard keys</string>
 </resources>
