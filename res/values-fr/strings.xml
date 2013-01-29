@@ -1910,7 +1910,7 @@
     <string name="increasing_ring_interval_10seconds">10 secondes</string>
 
     <string name="link_volume_ringtones">Lier Volumes sonnerie &amp; notifications</string>
-    <string name="link_volume_mutes">Lier Mode Silencieux pour sonnerie &amp notifications</string>
+    <string name="link_volume_mutes">Lier Mode Silencieux pour sonnerie &amp; notifications</string>
 
     <!-- Sound settings screen -->
     <string name="volume_overlay_title">Panneau Contrôles du volume</string>
