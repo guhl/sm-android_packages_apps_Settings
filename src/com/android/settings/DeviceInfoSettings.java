@@ -97,6 +97,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
         setStringSummary(KEY_DEVICE_MODEL, Build.MODEL);
         setStringSummary(KEY_BUILD_NUMBER, Build.DISPLAY);
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
+		findPreference(KEY_DEVICE_MODEL).setEnabled(true);
         findPreference(KEY_KERNEL_VERSION).setSummary(getFormattedKernelVersion());
         setValueSummary(KEY_MOD_VERSION, PROPERTY_MOD_VERSION);
 
@@ -234,8 +235,15 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
             }
         } else if (preference.getKey().equals(KEY_DEVICE_MODEL)) {
 			mHitCountdown --;
+
+			if (mDevHitToast != null)
+				mDevHitToast.cancel();
+
 			if (mHitCountdown <= 0)
-				Toast.makeText(getActivity(), "I'm afraid keeping touching this will not give you any superpowers.", Toast.LENGTH_LONG).show();
+			{
+				mDevHitToast = Toast.makeText(getActivity(), "I'm afraid keeping touching this will not give you any superpowers.", Toast.LENGTH_LONG);
+				mDevHitToast.show();
+			}
 		}
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
