@@ -68,6 +68,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
     private static final String PROPERTY_MOD_VERSION = "ro.modversion";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
+
     private static final String KEY_MOD_VERSION = "mod_version";
     private static final String KEY_DEVICE_CHIPSET = "device_chipset";
     private static final String KEY_DEVICE_CPU = "device_cpu";
@@ -79,6 +80,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
 
     long[] mHits = new long[3];
     int mDevHitCountdown;
+    int mHitCountdown = 4;
     Toast mDevHitToast;
 
     @Override
@@ -230,7 +232,11 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
                         Toast.LENGTH_LONG);
                 mDevHitToast.show();
             }
-        }
+        } else if (preference.getKey().equals(KEY_DEVICE_MODEL)) {
+			mHitCountdown --;
+			if (mHitCountdown <= 0)
+				Toast.makeText(getActivity(), "I'm afraid keeping touching this will not give you any superpowers.", Toast.LENGTH_LONG).show();
+		}
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
