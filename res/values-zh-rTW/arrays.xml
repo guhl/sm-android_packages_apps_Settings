@@ -295,4 +295,18 @@
     <item msgid="5077768429488260031">"一律不允許"</item>
     <item msgid="1417929597727989746">"一律允許"</item>
   </string-array>
+    <!-- Volume Overlay options. -->
+    <string-array name="volume_overlay_entries">
+        <item>單一項目</item>
+        <item>可供展開</item>
+        <item>完全展開</item>
+        <item>無</item>
+    </string-array>
+
+	<!-- Silent mode options. -->
+    <string-array name="silent_mode_entries">
+        <item>關閉</item>
+        <item>震動</item>
+        <item>靜音</item>
+    </string-array>
 </resources>
