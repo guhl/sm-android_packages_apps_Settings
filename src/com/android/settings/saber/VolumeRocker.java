@@ -32,10 +32,7 @@ public class VolumeRocker extends SettingsPreferenceFragment implements OnPrefer
 
     private static final String KEY_VOLBTN_MUSIC_CTRL = "volbtn_music_controls";
     private static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
-    private static final String KEY_VOLUME_WAKE = "pref_volume_wake";
-    private static final String KEY_WAKEUP_CATEGORY = "category_wakeup_options";
 
-    private CheckBoxPreference mVolumeWake;
     private CheckBoxPreference mVolBtnMusicCtrl;
     private ListPreference mVolumeKeyCursorControl;
 
@@ -44,15 +41,6 @@ public class VolumeRocker extends SettingsPreferenceFragment implements OnPrefer
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.volume_rocker_settings);
-        mVolumeWake = (CheckBoxPreference) findPreference(KEY_VOLUME_WAKE);
-        if (mVolumeWake != null) {
-            if (!getResources().getBoolean(R.bool.config_show_volumeRockerWake)) {
-                getPreferenceScreen().removePreference(mVolumeWake);
-            } else {
-                mVolumeWake.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
-                        Settings.System.VOLUME_WAKE_SCREEN, 0) == 1);
-            }
-        }
 
         mVolBtnMusicCtrl = (CheckBoxPreference) findPreference(KEY_VOLBTN_MUSIC_CTRL);
         mVolBtnMusicCtrl.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
@@ -74,10 +62,6 @@ public class VolumeRocker extends SettingsPreferenceFragment implements OnPrefer
                     Settings.System.VOLBTN_MUSIC_CONTROLS,
                     mVolBtnMusicCtrl.isChecked()
                     ? 1 : 0);
-        } else if (preference == mVolumeWake) {
-            Settings.System.putInt(getContentResolver(), Settings.System.VOLUME_WAKE_SCREEN,
-                    mVolumeWake.isChecked() ? 1 : 0);
-            return true;
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
