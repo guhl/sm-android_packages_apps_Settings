@@ -68,6 +68,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
     private static final String PROPERTY_MOD_VERSION = "ro.modversion";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
+
     private static final String KEY_MOD_VERSION = "mod_version";
     private static final String KEY_DEVICE_CHIPSET = "device_chipset";
     private static final String KEY_DEVICE_CPU = "device_cpu";
@@ -79,6 +80,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
 
     long[] mHits = new long[3];
     int mDevHitCountdown;
+    int mHitCountdown = 4;
     Toast mDevHitToast;
 
     @Override
@@ -95,6 +97,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
         setStringSummary(KEY_DEVICE_MODEL, Build.MODEL);
         setStringSummary(KEY_BUILD_NUMBER, Build.DISPLAY);
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
+		findPreference(KEY_DEVICE_MODEL).setEnabled(true);
         findPreference(KEY_KERNEL_VERSION).setSummary(getFormattedKernelVersion());
         setValueSummary(KEY_MOD_VERSION, PROPERTY_MOD_VERSION);
 
@@ -230,7 +233,18 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
                         Toast.LENGTH_LONG);
                 mDevHitToast.show();
             }
-        }
+        } else if (preference.getKey().equals(KEY_DEVICE_MODEL)) {
+			mHitCountdown --;
+
+			if (mDevHitToast != null)
+				mDevHitToast.cancel();
+
+			if (mHitCountdown <= 0)
+			{
+				mDevHitToast = Toast.makeText(getActivity(), "I'm afraid keeping touching this will not give you any superpowers.", Toast.LENGTH_LONG);
+				mDevHitToast.show();
+			}
+		}
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 

@@ -760,13 +760,40 @@
     <string name="device_info_settings" product="default" msgid="475872867864762157">"手機狀態"</string>
     <string name="system_update_settings_list_item_title" msgid="3342887311059985961">"系統更新"</string>
     <string name="system_update_settings_list_item_summary" msgid="3853057315907710747"></string>
+
+    <!--  About device screen, Hardware info -->
+    <string name="hardware_info">硬體資訊</string>
+    <!--  About device Screen, hardware info, rear camera -->
+    <string name="device_rear_camera">後方鏡頭</string>
+    <!--  About device Screen, hardware info, front camera -->
+    <string name="device_front_camera">前方鏡頭</string>
+    <!--  About device Screen, hardware info, screen res -->
+    <string name="device_screen_resolution">螢幕解析度</string>
+    <!--  About device Screen, hardware info, GPU info -->
+    <string name="gpu_info">GPU</string>
+    <!-- About device screen, Cpu info. -->
+    <string name="cpu_info">CPU</string>
+    <!-- About device screen, Chipset info -->
+    <string name="chipset_info">晶片組</string>
+    <!-- About phone screen, Free memory info -->
+    <string name="mem_info">記憶體</string>
+    <!-- About phone screen, status item label -->
     <string name="firmware_version" msgid="4801135784886859972">"Android 版本"</string>
+    <!-- About phone screen, status item label-->
     <string name="model_number" msgid="3765737700545384794">"型號"</string>
+    <!-- About phone screen, fcc equipment id label-->
     <string name="fcc_equipment_id" msgid="149114368246356737">"設備 ID"</string>
+    <!-- About phone screen,  setting option name-->
     <string name="baseband_version" msgid="1848990160763524801">"基頻版本"</string>
+    <!-- About phone screen,  setting option name-->
     <string name="kernel_version" msgid="9192574954196167602">"核心版本"</string>
+    <!-- About phone screen,  setting option name-->
     <string name="build_number" msgid="3075795840572241758">"版本號碼"</string>
+    <!-- About phone screen,  setting option name-->
     <string name="selinux_status" msgid="6212165375172061672">"SELinux 狀態"</string>
+    <!-- About phone screen, modversion -->
+    <string name="mod_version">CodefireX 版本</string>
+
     <string name="device_info_not_available" msgid="8062521887156825182">"無法取得"</string>
     <string name="device_status_activity_title" msgid="1411201799384697904">"狀態"</string>
     <string name="device_status" msgid="607405385799807324">"狀態"</string>
@@ -1834,4 +1861,81 @@
     <string name="user_picture_title" msgid="7297782792000291692">"相片 ID"</string>
     <string name="cell_broadcast_settings" msgid="8415582011920085222">"區域廣播"</string>
     <string name="cell_broadcast_settings_summary" msgid="3301339398950905913">"選取要顯示的緊急警示類型。"</string>
+	
+    <!-- Wi-Fi settings screen, advanced, title of the item to show the Wi-Fi device's MAC address. -->
+    <string name="wifi_setting_countrycode_title">Wi-Fi 地區代碼</string>
+    <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+    <string name="wifi_setting_countrycode_summary">指定 Wi-Fi 地區代碼</string>
+    <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+    <string name="wifi_setting_countrycode_error">地區代碼設定發生錯誤。</string>
+
+    <!-- CFX Settings -->
+    <string name="cfx_settings">CFX 設定</string>
+
+
+    <!-- Setting checkbox summary for displaying USB debugging notification -->
+    <string name="adb_notify">USB 偵錯通知</string>
+    <string name="adb_notify_summary">當連接 USB 偵錯時顯示通知</string>
+
+    <!-- cfX specific sound settings
+    <string name="camera_sounds">Camera sounds</string> ** TODO ** -->
+    <string name="safe_headset_volume_title">安全耳機音量</string>
+
+    <!-- Quiet hours -->
+    <string name="quiet_hours_title">靜音時段</string>
+    <string name="quiet_hours_summary">配置時段會使裝置靜音</string>
+    <string name="quiet_hours_note_title">注意</string>
+    <string name="quiet_hours_note_summary">處於靜音時段，來電仍然和往常一樣響鈴</string>
+    <string name="quiet_hours_enabled">啟用靜音時段</string>
+    <string name="quiet_hours_enabled_on">靜音時段將被強制執行</string>
+    <string name="quiet_hours_enabled_off">通知將恢復正常功能</string>
+    <string name="quiet_hours_start">靜音時段開始</string>
+    <string name="quiet_hours_start_summary">何時開始實行靜音時段</string>
+    <string name="quiet_hours_end">靜音時段結束</string>
+    <string name="quiet_hours_end_summary">何時停止實行靜音時段</string>
+    <string name="quiet_hours_mute">靜音通知</string>
+    <string name="quiet_hours_mute_on">不會發出聲音</string>
+    <string name="quiet_hours_mute_off">聲音正常發出</string>
+    <string name="quiet_hours_still">關閉震動</string>
+    <string name="quiet_hours_still_on">裝置將不會震動</string>
+    <string name="quiet_hours_still_off">裝置將正常震動</string>
+    <string name="quiet_hours_dim">關閉通知指示燈</string>
+    <string name="quiet_hours_dim_on">通知指示燈將被關閉</string>
+    <string name="quiet_hours_dim_off">通知指示燈將恢復正常功能</string>
+    <string name="quiet_hours_haptic">關閉觸控回應</string>
+    <string name="quiet_hours_haptic_on">觸控回應將被關閉</string>
+    <string name="quiet_hours_haptic_off">觸控回應將恢復正常功能</string>
+    <string name="quiet_hours_active_from">啟動從</string>
+    <string name="quiet_hours_active_to">至</string>
+
+    <!-- time range preference -->
+    <string name="start_time_title">開始</string>
+    <string name="end_time_title">結束</string>
+
+    <string name="increasing_ring_title">逐漸提高鈴聲音量</string>
+    <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->
+    <string name="checkbox_increasing_ring">開啟</string>
+    <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
+    <string name="increasing_ring_min_volume_title">鈴聲初始音量</string>
+    <string name="increasing_ring_volume_notice">注意:\n由於初始音量設定高於鈴聲音量，鈴聲將使用原鈴聲設定的音量來播放。</string>
+    <string name="increasing_ring_interval_title">遞增間隔</string>
+    <string name="increasing_ring_interval_eachring">每次響鈴</string>
+    <string name="increasing_ring_interval_half_second">0.5 秒</string>
+    <string name="increasing_ring_interval_1second">1 秒</string>
+    <string name="increasing_ring_interval_2seconds">2 秒</string>
+    <string name="increasing_ring_interval_3seconds">3 秒</string>
+    <string name="increasing_ring_interval_5seconds">5 秒</string>
+    <string name="increasing_ring_interval_10seconds">10 秒</string>
+
+    <string name="link_volume_ringtones">連結鈴聲與通知音量</string>
+    <string name="link_volume_mutes">靜音模式影響通知</string>
+
+    <!-- Sound settings screen -->
+    <string name="volume_overlay_title">音量面板樣式</string>
+    <string name="silent_mode_title">靜音模式</string>
+    <string name="volume_ring_only_description">鈴聲</string>
+
+    <string name="volume_adjust_sounds_enable_title">音量調整音效</string>
+    <!-- Sound settings screen, setting check box summary -->
+    <string name="volume_adjust_sounds_enable_summary">使用硬體按鍵調整音量時播放音效</string>
 </resources>
