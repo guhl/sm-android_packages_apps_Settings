@@ -4418,7 +4418,6 @@
     <!-- Sound settings screen -->
     <string name="volume_overlay_title">Volume panel style</string>
     <string name="volume_ring_only_description">Ringtone</string>
-    <string name="headset_connect_player_title">Launch music app on connect</string>
 
     <!-- Navigation Bar  -->
     <string name="navigation_bar_edit_title">Button customization</string>
@@ -4572,12 +4571,20 @@
 
     <!-- Volume rocker behaviours -->
     <string name="volume_rocker_category_title">Volume rocker behaviors</string>
+
     <!-- Volume rocker music control -->
     <string name="volbtn_music_controls_title">Volume rocker music controls</string>
     <string name="volbtn_music_controls_summary">When screen off, long-pressing the volume rockers will seek music tracks</string>
+
     <!--- Volume key cursor control -->
     <string name="volume_key_cursor_control_title">Volume key cursor control</string>
     <string name="volume_key_cursor_control_off">Disabled</string>
     <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
     <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Launch music app</string>
+    <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
+
+    <!-- SABER MODS END -->
 </resources>
