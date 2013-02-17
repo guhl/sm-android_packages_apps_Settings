@@ -1468,7 +1468,6 @@
                 android:resource="@id/wireless_settings" />
         </activity>
 
-<<<<<<< HEAD
         <activity android:name="Settings$DreamSettingsActivity"
                 android:label="@string/screensaver_settings_title"
                 android:taskAffinity=""
