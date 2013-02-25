@@ -1834,7 +1834,7 @@
     <string name="quiet_hours_title">Tiché hodiny</string>
     <string name="quiet_hours_summary">Nastavte si čas, v ktorom by malo byť zariadenie ticho</string>
     <string name="quiet_hours_note_title">Poznámka</string>
-    <string name="quiet_hours_note_summary">Prichádzajúce hovory sa budú správať ako obvykle počas tichých hodín.</string>
+    <string name="quiet_hours_note_summary">Prichádzajúce hovory sa budú počas tichých hodín správať ako obvykle.</string>
     <string name="quiet_hours_enabled">Povoliť tiché hodiny</string>
     <string name="quiet_hours_enabled_on">Tiché hodiny budú vynútené</string>
     <string name="quiet_hours_enabled_off">Oznámenia budú fungovať normálne</string>
@@ -1870,9 +1870,11 @@
     <string name="increasing_ring_interval_3seconds">3 sekundy</string>
     <string name="increasing_ring_interval_5seconds">5 sekúnd</string>
     <string name="increasing_ring_interval_10seconds">10 sekúnd</string>
-    <string name="link_volume_ringtones">Väzba hlasitosti zvonenia a upozornení</string>
+    <string name="link_volume_ringtones">Väzba zvonenia a upozornení</string>
     <string name="link_volume_mutes">Tichý režim ovplyvňuje oznámenia</string>
     <string name="volume_overlay_title">Štýl panela hlasitosti</string>
     <string name="silent_mode_title">Tichý režim</string>
     <string name="volume_ring_only_description">Zvonenie</string>
+    <string name="volume_adjust_sounds_enable_title">Hlasitosť nastavenia zvuku</string>
+    <string name="volume_adjust_sounds_enable_summary">Pri zmene hlasitosti pomocou hardvérového tlačidla prehrať zvuk</string>
 </resources>
