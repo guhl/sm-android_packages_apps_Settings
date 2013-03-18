@@ -30,6 +30,11 @@
         android:title="@string/power_menu_title"
         android:fragment="com.android.settings.saber.PowerMenu" />
 
+    <PreferenceScreen
+        android:key="pie_control"
+        android:fragment="com.android.settings.saber.PieControl"
+        android:title="@string/pie_control_title" />
+
     <PreferenceCategory
         android:key="category_notification_pulse"
         android:title="@string/category_notification_pulse_title">

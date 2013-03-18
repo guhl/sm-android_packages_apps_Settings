@@ -36,16 +36,19 @@ public class SystemSettings extends SettingsPreferenceFragment implements
     private static final String QUICK_PULLDOWN = "quick_pulldown";
     private static final String KEY_NOTIFICATION_PULSE_CATEGORY = "category_notification_pulse";
     private static final String KEY_NOTIFICATION_PULSE = "notification_pulse";
+    private static final String KEY_PIE_CONTROL = "pie_control";
 
     private PreferenceScreen mNotificationPulse;
     private PreferenceCategory mQuickSettingsCategory;
     private ListPreference mQuickPulldown;
+    private PreferenceScreen mPieControl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.system_settings);
+        PreferenceScreen prefScreen = getPreferenceScreen();
 
         // Notification lights
         mNotificationPulse = (PreferenceScreen) findPreference(KEY_NOTIFICATION_PULSE);
@@ -53,11 +56,13 @@ public class SystemSettings extends SettingsPreferenceFragment implements
             if (!getResources().getBoolean(com.android.internal.R.bool.config_intrusiveNotificationLed)) {
                 getPreferenceScreen().removePreference(mNotificationPulse);
                 getPreferenceScreen().removePreference((PreferenceCategory) findPreference(KEY_NOTIFICATION_PULSE_CATEGORY));
-            } else {
-                updateLightPulseDescription();
+                mNotificationPulse = null;
             }
         }
         
+        // Pie controls
+        mPieControl = (PreferenceScreen) findPreference(KEY_PIE_CONTROL);
+
         // Quick Settings category and pull down. Only show on phones
         mQuickSettingsCategory = (PreferenceCategory) getPreferenceScreen().findPreference(QUICK_SETTINGS_CATEGORY);
         mQuickPulldown = (ListPreference) getPreferenceScreen().findPreference(QUICK_PULLDOWN);
@@ -107,10 +112,26 @@ public class SystemSettings extends SettingsPreferenceFragment implements
         return false;
     }
 
+    private void updatePieControlDescription() {
+        if (Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.PIE_CONTROLS, 0) == 1) {
+            mPieControl.setSummary(getString(R.string.pie_control_enabled));
+        } else {
+            mPieControl.setSummary(getString(R.string.pie_control_disabled));
+        }
+    }
+
     @Override
     public void onResume() {
         super.onResume();
-        updateLightPulseDescription();
+
+        // All users
+        if (mNotificationPulse != null) {
+            updateLightPulseDescription();
+        }
+        if (mPieControl != null) {
+            updatePieControlDescription();
+        }
     }
 
     @Override
