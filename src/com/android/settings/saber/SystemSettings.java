@@ -18,6 +18,7 @@ package com.android.settings.saber;
 
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceCategory;
@@ -32,6 +33,10 @@ public class SystemSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "SystemSettings";
 
+    private static final String KEY_STATUS_BAR = "status_bar";
+    private static final String KEY_NAVIGATION_BAR = "navigation_bar";
+    private static final String KEY_LOCKSCREEN_TARGETS = "lockscreen_targets";
+    private static final String KEY_VOLUME_ROCKER_SETTINGS = "volume_rocker_settings";
     private static final String QUICK_SETTINGS_CATEGORY = "quick_settings_category";
     private static final String QUICK_PULLDOWN = "quick_pulldown";
     private static final String KEY_NOTIFICATION_PULSE_CATEGORY = "category_notification_pulse";
@@ -42,6 +47,7 @@ public class SystemSettings extends SettingsPreferenceFragment implements
     private PreferenceCategory mQuickSettingsCategory;
     private ListPreference mQuickPulldown;
     private PreferenceScreen mPieControl;
+    private boolean mPrimaryUser;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -49,6 +55,17 @@ public class SystemSettings extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.system_settings);
         PreferenceScreen prefScreen = getPreferenceScreen();
+        
+        // USER_OWNER is logged in
+        mPrimaryUser = UserHandle.myUserId() == UserHandle.USER_OWNER;
+        if (mPrimaryUser) {
+            // do nothing, show all settings
+        } else {
+            // NON USER_OWNER is logged in
+            // remove non multi-user compatible settings
+            getPreferenceScreen().removePreference(findPreference(KEY_STATUS_BAR));
+            getPreferenceScreen().removePreference(findPreference(KEY_NAVIGATION_BAR));
+        }
 
         // Notification lights
         mNotificationPulse = (PreferenceScreen) findPreference(KEY_NOTIFICATION_PULSE);
