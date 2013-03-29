@@ -93,7 +93,7 @@
     <string name="battery_info_status_charging_ac" msgid="5874340256342956252">"(AC)"</string>
     <string name="battery_info_status_charging_usb" msgid="4059070156126770959">"(USB)"</string>
     <string name="battery_info_status_charging_wireless" msgid="1822125795446772771">"(ασύρματο)"</string>
-    <string name="battery_info_status_discharging" msgid="310932812698268588">"Δεν φορτίζει"</string>
+    <string name="battery_info_status_discharging" msgid="310932812698268588">"Αποφορτίζεται"</string>
     <string name="battery_info_status_not_charging" msgid="2820070506621483576">"Δεν φορτίζει"</string>
     <string name="battery_info_status_full" msgid="2824614753861462808">"Πλήρης"</string>
     <string name="battery_info_power_unplugged" msgid="5987246575519551081">"Αποσυνδέθηκε"</string>
@@ -105,7 +105,7 @@
     <string name="battery_info_health_unknown" msgid="5664295556921944255">"Άγνωστο"</string>
     <string name="battery_info_health_good" msgid="8070356565806711806">"Καλό"</string>
     <string name="battery_info_health_overheat" msgid="8442959549291368806">"Υπερθέρμανση"</string>
-    <string name="battery_info_health_dead" msgid="1725917445762829059">"Νεκρό"</string>
+    <string name="battery_info_health_dead" msgid="1725917445762829059">"Νεκρή"</string>
     <string name="battery_info_health_over_voltage" msgid="2420269351664490121">"Υπερβολική τάση"</string>
     <string name="battery_info_health_unspecified_failure" msgid="6347021103185471590">"Άγνωστο σφάλμα"</string>
     <string name="battery_info_health_cold" msgid="3835692786176707318">"Κρύο"</string>
@@ -123,7 +123,7 @@
     <string name="bluetooth_profile_details" msgid="6823621790324933337">"Ρυθμίσεις προφίλ"</string>
     <string name="bluetooth_name_not_set" msgid="2653752006416027426">"Δεν έχει οριστεί όνομα, χρήση ονόματος λογαριασμού"</string>
     <string name="bluetooth_scan_for_devices" msgid="9214184305566815727">"Σάρωση για συσκευές"</string>
-    <string name="bluetooth_rename_device" product="tablet" msgid="787970073150631155">"Μετονομασία tablet"</string>
+    <string name="bluetooth_rename_device" product="tablet" msgid="787970073150631155">"Μετονομασία ταμπλέτας"</string>
     <string name="bluetooth_rename_device" product="default" msgid="6267987985556136749">"Μετονομασία τηλεφώνου"</string>
     <string name="bluetooth_rename_button" msgid="1648028693822994566">"Μετονομασία"</string>
     <string name="bluetooth_disconnect_title" msgid="6026705382020027966">"Αποσύνδεση;"</string>
@@ -149,13 +149,13 @@
     <string name="device_picker" msgid="8398232791303186677">"Επιλογέας συσκευής Bluetooth"</string>
     <string name="bluetooth_permission_request" msgid="1523129741266262748">"Αίτημα άδειας Bluetooth"</string>
     <string name="bluetooth_ask_enablement" msgid="637355677176904990">"Μια εφαρμογή θέλει να ενεργοποιήσει το Bluetooth."</string>
-    <string name="bluetooth_ask_discovery" product="tablet" msgid="786921566047356213">"Μια εφαρμογή θέλει να κάνει ορατό το tablet σας σε άλλες συσκευές Bluetooth για <xliff:g id="TIMEOUT">%1$d</xliff:g> δευτερόλεπτα."</string>
+    <string name="bluetooth_ask_discovery" product="tablet" msgid="786921566047356213">"Μια εφαρμογή θέλει να κάνει ορατή την ταμπλέτα σας σε άλλες συσκευές Bluetooth για <xliff:g id="TIMEOUT">%1$d</xliff:g> δευτερόλεπτα."</string>
     <string name="bluetooth_ask_discovery" product="default" msgid="5510358858113713272">"Μια εφαρμογή θέλει να κάνει ορατό το τηλέφωνό σας σε άλλες συσκευές Bluetooth για <xliff:g id="TIMEOUT">%1$d</xliff:g> δευτερόλεπτα."</string>
-    <string name="bluetooth_ask_lasting_discovery" product="tablet" msgid="8863617309580598607">"Μια εφαρμογή θέλει να κάνει το tablet σας ορατό σε άλλες συσκευές Bluetooth. Μπορείτε να αλλάξετε την επιλογή αργότερα, από τις ρυθμίσεις Bluetooth."</string>
+    <string name="bluetooth_ask_lasting_discovery" product="tablet" msgid="8863617309580598607">"Μια εφαρμογή θέλει να κάνει την ταμπλέτα σας ορατή σε άλλες συσκευές Bluetooth. Μπορείτε να αλλάξετε την επιλογή αργότερα, από τις ρυθμίσεις Bluetooth."</string>
     <string name="bluetooth_ask_lasting_discovery" product="default" msgid="6487606808683607975">"Μια εφαρμογή θέλει να κάνει το τηλέφωνό σας ορατό σε άλλες συσκευές Bluetooth. Μπορείτε να αλλάξετε την επιλογή αργότερα, από τις ρυθμίσεις Bluetooth."</string>
-    <string name="bluetooth_ask_enablement_and_discovery" product="tablet" msgid="3346529092809011149">"Μια εφαρμογή θέλει να ενεργοποιήσει το Bluetooth και να κάνει το tablet σας ορατό σε άλλες συσκευές για <xliff:g id="TIMEOUT">%1$d</xliff:g> δευτερόλεπτα."</string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="tablet" msgid="3346529092809011149">"Μια εφαρμογή θέλει να ενεργοποιήσει το Bluetooth και να κάνει την ταμπλέτα σας ορατή σε άλλες συσκευές για <xliff:g id="TIMEOUT">%1$d</xliff:g> δευτερόλεπτα."</string>
     <string name="bluetooth_ask_enablement_and_discovery" product="default" msgid="4724094889807196118">"Μια εφαρμογή θέλει να ενεργοποιήσει το Bluetooth και να κάνει το τηλέφωνό σας ορατό σε άλλες συσκευές για <xliff:g id="TIMEOUT">%1$d</xliff:g> δευτερόλεπτα."</string>
-    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet" msgid="989613204829097159">"Μια εφαρμογή θέλει να ενεργοποιήσει το Bluetooth και να κάνει το tablet σας ορατό σε άλλες συσκευές. Μπορείτε να αλλάξετε την επιλογή αργότερα, από τις ρυθμίσεις Bluetooth."</string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet" msgid="989613204829097159">"Μια εφαρμογή θέλει να ενεργοποιήσει το Bluetooth και να κάνει την ταμπλέτα σας ορατή σε άλλες συσκευές. Μπορείτε να αλλάξετε την επιλογή αργότερα, από τις ρυθμίσεις Bluetooth."</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery" product="default" msgid="6671615712909139801">"Μια εφαρμογή θέλει να ενεργοποιήσει το Bluetooth και να κάνει το τηλέφωνό σας ορατό σε άλλες συσκευές. Μπορείτε να αλλάξετε την επιλογή αργότερα, από τις ρυθμίσεις Bluetooth."</string>
     <string name="bluetooth_turning_on" msgid="4850574877288036646">"Ενεργοποίηση του Bluetooth…"</string>
     <string name="bluetooth_turning_off" msgid="2337747302892025192">"Απενεργοποίηση Bluetooth…"</string>
@@ -256,7 +256,7 @@
     <string name="device_info_label" msgid="6551553813651711205">"Πληροφορίες συσκευής"</string>
     <string name="battery_info_label" msgid="4132685016148679403">"Πληροφορίες μπαταρίας"</string>
     <string name="display_label" msgid="8074070940506840792">"Οθόνη"</string>
-    <string name="phone_info_label" product="tablet" msgid="7820855350955963628">"Πληροφορίες tablet"</string>
+    <string name="phone_info_label" product="tablet" msgid="7820855350955963628">"Πληροφορίες ταμπλέτας"</string>
     <string name="phone_info_label" product="default" msgid="2127552523124277664">"Πληροφορίες τηλεφώνου"</string>
     <string name="sd_card_settings_label" product="nosdcard" msgid="8101475181301178428">"Αποθ. χώρος USB"</string>
     <string name="sd_card_settings_label" product="default" msgid="5743100901106177102">"Κάρτα SD"</string>
@@ -275,7 +275,7 @@
     <string name="roaming_reenable_message" msgid="9141007271031717369">"Χάσατε τη σύνδεση δεδομένων επειδή φύγατε από το οικείο δίκτυο έχοντας την περιαγωγή δεδομένων απενεργοποιημένη."</string>
     <string name="roaming_turn_it_on_button" msgid="4387601818162120589">"Ενεργοποίηση"</string>
     <string name="roaming_warning" msgid="7625933694709170887">"Όταν επιτρέπετε την περιαγωγή δεδομένων, ενδέχεται να επιβαρυνθείτε με σημαντικές χρεώσεις περιαγωγής!"</string>
-    <string name="roaming_warning_multiuser" product="tablet" msgid="6458990250829214777">"Όταν επιτρέπετε την περιαγωγή δεδομένων, ενδέχεται να ισχύσουν σημαντικές χρεώσεις περιαγωγής!"\n\n"Αυτή η ρύθμιση επηρεάζει όλους τους χρήστες στο συγκεκριμένο tablet."</string>
+    <string name="roaming_warning_multiuser" product="tablet" msgid="6458990250829214777">"Όταν επιτρέπετε την περιαγωγή δεδομένων, ενδέχεται να ισχύσουν σημαντικές χρεώσεις περιαγωγής!"\n\n"Αυτή η ρύθμιση επηρεάζει όλους τους χρήστες στην συγκεκριμένη ταμπλέτα."</string>
     <string name="roaming_warning_multiuser" product="default" msgid="6368421100292355440">"Όταν επιτρέπετε την περιαγωγή δεδομένων, ενδέχεται να ισχύσουν σημαντικές χρεώσεις περιαγωγής!"\n\n"Αυτή η ρύθμιση επηρεάζει όλους τους χρήστες στο συγκεκριμένο τηλέφωνο."</string>
     <string name="roaming_reenable_title" msgid="6068100976707316772">"Να επιτρέπεται η περιαγωγή δεδομένων;"</string>
     <string name="networks" msgid="6333316876545927039">"Επιλογή παρόχου"</string>
@@ -315,29 +315,29 @@
     <string name="cdma_security_settings_summary" msgid="6068799952798901542">"Ορισμός του \"Η τοποθεσία μου\", του ξεκλειδώματος οθόνης και του κλειδώματος αποθηκευτικού χώρου διαπιστευτηρίων"</string>
     <string name="security_passwords_title" msgid="2930627259125138363">"Κωδικοί πρόσβασης"</string>
     <string name="crypt_keeper_settings_title" msgid="4219233835490520414">"Κρυπτογράφηση"</string>
-    <string name="crypt_keeper_encrypt_title" product="tablet" msgid="1060273569887301457">"Κρυπτογράφηση tablet"</string>
+    <string name="crypt_keeper_encrypt_title" product="tablet" msgid="1060273569887301457">"Κρυπτογράφηση ταμπλέτας"</string>
     <string name="crypt_keeper_encrypt_title" product="default" msgid="1878996487755806122">"Κρυπτογράφηση τηλεφώνου"</string>
-    <string name="crypt_keeper_encrypt_summary" product="tablet" msgid="6291564408810586">"Να απαιτείται ένας αριθμητικός κωδικός PIN ή ένας κωδικός πρόσβασης για την αποκρυπτογράφηση του tablet κάθε φορά που το ενεργοποιείτε"</string>
+    <string name="crypt_keeper_encrypt_summary" product="tablet" msgid="6291564408810586">"Να απαιτείται ένας αριθμητικός κωδικός PIN ή ένας κωδικός πρόσβασης για την αποκρυπτογράφηση της ταμπλέτας κάθε φορά που το ενεργοποιείτε"</string>
     <string name="crypt_keeper_encrypt_summary" product="default" msgid="514138079795442371">"Να απαιτείται ένας αριθμητικός κωδικός PIN ή ένας κωδικός πρόσβασης για την αποκρυπτογράφηση του τηλεφώνου σας κάθε φορά που το ενεργοποιείτε"</string>
     <string name="crypt_keeper_encrypted_summary" msgid="1868233637888132906">"Κρυπτογραφημένο"</string>
-    <string name="crypt_keeper_desc" product="tablet" msgid="3839235202103924154">"Μπορείτε να κρυπτογραφήσετε τους λογαριασμούς, τις ρυθμίσεις, τις εφαρμογές των οποίων έχετε πραγματοποιήσει λήψη και τα δεδομένα τους, τα μέσα και άλλα αρχεία σας. Αφού κρυπτογραφήσετε το tablet σας, θα πρέπει κάθε φορά που το ενεργοποιείτε να πληκτρολογείτε ένα αριθμητικό PIN ή έναν κωδικό πρόσβασης για την αποκρυπτογράφησή του. Δεν είναι δυνατή η αποκρυπτογράφηση του tablet σας, εκτός αν πραγματοποιήσετε επαναφορά εργοστασιακών ρυθμίσεων, διαγράφοντας όλα τα δεδομένα σας."\n\n"Η κρυπτογράφηση διαρκεί μια ώρα ή και περισσότερο. Θα πρέπει να την ξεκινήσετε με την μπαταρία σας φορτισμένη και το tablet σας θα πρέπει να είναι συνδεδεμένο σε πρίζα, έως ότου ολοκληρωθεί η κρυπτογράφηση. Αν διακόψετε τη διαδικασία κρυπτογράφησης, θα χάσετε ορισμένα ή όλα τα δεδομένα σας."</string>
+    <string name="crypt_keeper_desc" product="tablet" msgid="3839235202103924154">"Μπορείτε να κρυπτογραφήσετε τους λογαριασμούς, τις ρυθμίσεις, τις εφαρμογές των οποίων έχετε πραγματοποιήσει λήψη και τα δεδομένα τους, τα μέσα και άλλα αρχεία σας. Αφού κρυπτογραφήσετε την ταμπλέτα σας, θα πρέπει κάθε φορά που το ενεργοποιείτε να πληκτρολογείτε ένα αριθμητικό PIN ή έναν κωδικό πρόσβασης για την αποκρυπτογράφησή του. Δεν είναι δυνατή η αποκρυπτογράφηση της ταμπλέτας σας, εκτός αν πραγματοποιήσετε επαναφορά εργοστασιακών ρυθμίσεων, διαγράφοντας όλα τα δεδομένα σας."\n\n"Η κρυπτογράφηση διαρκεί μια ώρα ή και περισσότερο. Θα πρέπει να την ξεκινήσετε με την μπαταρία σας φορτισμένη και η ταμπλέτα σας θα πρέπει να είναι συνδεδεμένη σε πρίζα, έως ότου ολοκληρωθεί η κρυπτογράφηση. Αν διακόψετε τη διαδικασία κρυπτογράφησης, θα χάσετε ορισμένα ή όλα τα δεδομένα σας."</string>
     <string name="crypt_keeper_desc" product="default" msgid="7663118199519229502">"Μπορείτε να κρυπτογραφήσετε τους λογαριασμούς, τις ρυθμίσεις, τις εφαρμογές των οποίων έχετε πραγματοποιήσει λήψη και τα δεδομένα τους, τα μέσα και άλλα αρχεία σας. Αφού κρυπτογραφήσετε το τηλέφωνό σας, θα πρέπει κάθε φορά που το ενεργοποιείτε να πληκτρολογείτε ένα αριθμητικό PIN ή έναν κωδικό πρόσβασης για την αποκρυπτογράφησή του. Δεν είναι δυνατή η αποκρυπτογράφηση του τηλεφώνου σας, εκτός αν πραγματοποιήσετε επαναφορά εργοστασιακών ρυθμίσεων, διαγράφοντας όλα τα δεδομένα σας."\n\n"Η κρυπτογράφηση διαρκεί μια ώρα ή και περισσότερο. Θα πρέπει να την ξεκινήσετε με την μπαταρία σας φορτισμένη, ενώ το τηλέφωνό σας θα πρέπει να είναι συνδεδεμένο σε πρίζα, έως ότου ολοκληρωθεί η κρυπτογράφηση. Αν διακόψετε τη διαδικασία κρυπτογράφησης, θα χάσετε ορισμένα ή όλα τα δεδομένα σας."</string>
-    <string name="crypt_keeper_button_text" product="tablet" msgid="1189623490604750854">"Κρυπτογράφηση tablet"</string>
+    <string name="crypt_keeper_button_text" product="tablet" msgid="1189623490604750854">"Κρυπτογράφηση ταμπλέτας"</string>
     <string name="crypt_keeper_button_text" product="default" msgid="2008346408473255519">"Κρυπτογράφηση τηλεφώνου"</string>
     <string name="crypt_keeper_low_charge_text" msgid="2029407131227814893">"Φορτίστε την μπαταρία σας και δοκιμάστε ξανά."</string>
     <string name="crypt_keeper_unplugged_text" msgid="4785376766063053901">"Συνδέστε τον φορτιστή σας και δοκιμάστε ξανά."</string>
     <string name="crypt_keeper_dialog_need_password_title" msgid="4058971800557767">"Δεν υπάρχει κωδικός PIN ή κωδικός πρόσβασης κλειδώματος οθόνης"</string>
     <string name="crypt_keeper_dialog_need_password_message" msgid="4071395977297369642">"Πρέπει να ορίσετε έναν κωδικό PIN ή έναν κωδικό κλειδώματος οθόνης προτού αρχίσει η κρυπτογράφηση."</string>
     <string name="crypt_keeper_confirm_title" msgid="5100339496381875522">"Να γίνει κρυπτογράφηση;"</string>
-    <string name="crypt_keeper_final_desc" product="tablet" msgid="4453629424172409792">"Η λειτουργία κρυπτογράφησης είναι μη αναστρέψιμη και, αν τη διακόψετε, θα χαθούν δεδομένα. Η κρυπτογράφηση διαρκεί μια ώρα ή και περισσότερο, κατά τη διάρκεια της οποίας θα γίνει πολλές φορές επανεκκίνηση του tablet."</string>
+    <string name="crypt_keeper_final_desc" product="tablet" msgid="4453629424172409792">"Η λειτουργία κρυπτογράφησης είναι μη αναστρέψιμη και, αν τη διακόψετε, θα χαθούν δεδομένα. Η κρυπτογράφηση διαρκεί μια ώρα ή και περισσότερο, κατά τη διάρκεια της οποίας θα γίνει πολλές φορές επανεκκίνηση της ταμπλέτας."</string>
     <string name="crypt_keeper_final_desc" product="default" msgid="5682944380460921880">"Η λειτουργία κρυπτογράφησης είναι μη αναστρέψιμη και, αν τη διακόψετε, θα χαθούν δεδομένα. Η κρυπτογράφηση διαρκεί μια ώρα ή και περισσότερο, κατά τη διάρκεια της οποίας θα γίνει πολλές φορές επανεκκίνηση του τηλεφώνου."</string>
     <string name="crypt_keeper_setup_title" msgid="1783951453124244969">"Κρυπτογράφηση"</string>
-    <string name="crypt_keeper_setup_description" product="tablet" msgid="6689952371032099350">"Περιμένετε μέχρι να γίνει κρυπτογράφηση του tablet. <xliff:g id="PERCENT">^1</xliff:g>% ολοκληρώθηκε."</string>
+    <string name="crypt_keeper_setup_description" product="tablet" msgid="6689952371032099350">"Περιμένετε μέχρι να γίνει κρυπτογράφηση της ταμπλέτας. <xliff:g id="PERCENT">^1</xliff:g>% ολοκληρώθηκε."</string>
     <string name="crypt_keeper_setup_description" product="default" msgid="951918761585534875">"Περιμένετε μέχρι να γίνει κρυπτογράφηση του τηλεφώνου σας. <xliff:g id="PERCENT">^1</xliff:g>% ολοκληρώθηκε."</string>
     <string name="crypt_keeper_cooldown" msgid="685210918307862395">"Προσπαθήστε ξανά σε <xliff:g id="DELAY">^1</xliff:g> δευτερόλεπτα."</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Πληκτρολογήστε τον κωδικό πρόσβασής σας"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Η κρυπτογράφηση απέτυχε"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="4478225241476039013">"Η κρυπτογράφηση διακόπηκε και δεν είναι δυνατή η ολοκλήρωσή της. Κατά συνέπεια, δεν είναι πλέον δυνατή η πρόσβαση στα δεδομένα στο tablet σας. "\n\n" Για να συνεχίσετε να χρησιμοποιείτε το tablet σας θα πρέπει να πραγματοποιήσετε επαναφορά των εργοστασιακών ρυθμίσεων. Όταν ρυθμίσετε το tablet σας μετά από την επαναφορά, θα μπορείτε να επαναφέρετε τα αντίγραφα ασφαλείας των δεδομένων σας από το Λογαριασμό σας Google."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="4478225241476039013">"Η κρυπτογράφηση διακόπηκε και δεν είναι δυνατή η ολοκλήρωσή της. Κατά συνέπεια, δεν είναι πλέον δυνατή η πρόσβαση στα δεδομένα της ταμπλέτας σας. "\n\n" Για να συνεχίσετε να χρησιμοποιείτε την ταμπλέτα σας θα πρέπει να πραγματοποιήσετε επαναφορά των εργοστασιακών ρυθμίσεων. Όταν ρυθμίσετε την ταμπλέτα σας μετά από την επαναφορά, θα μπορείτε να επαναφέρετε τα αντίγραφα ασφαλείας των δεδομένων σας από το Λογαριασμό σας Google."</string>
     <string name="crypt_keeper_failed_summary" product="default" msgid="3083477162766772532">"Η κρυπτογράφηση διακόπηκε και δεν είναι δυνατή η ολοκλήρωσή της. Κατά συνέπεια, δεν είναι πλέον δυνατή η πρόσβαση στα δεδομένα στο τηλέφωνό σας. "\n\n"Για να συνεχίσετε να χρησιμοποιείτε το τηλέφωνό σας θα πρέπει να πραγματοποιήσετε επαναφορά των εργοστασιακών ρυθμίσεων. Όταν ρυθμίσετε το τηλέφωνό σας μετά από την επαναφορά, θα μπορείτε να επαναφέρετε τα αντίγραφα ασφαλείας των δεδομένων σας από τον Λογαριασμό σας Google."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Εναλλαγή μεθόδου εισαγωγής"</string>
     <string name="lock_settings_picker_title" msgid="1095755849152582712">"Επιλογή κλειδ. οθόνης"</string>
@@ -467,7 +467,7 @@
     <string name="bluetooth_disconnect_headset_profile" msgid="8635908811168780720">"Η συσκευή <xliff:g id="DEVICE_NAME">%1$s</xliff:g> θα αποσυνδεθεί από τον ήχο handsfree."</string>
     <string name="bluetooth_disconnect_hid_profile" msgid="3282295189719352075">"Η συσκευή <xliff:g id="DEVICE_NAME">%1$s</xliff:g> θα αποσυνδεθεί από τη συσκευή εισόδου."</string>
     <string name="bluetooth_disconnect_pan_user_profile" msgid="8037627994382458698">"Θα γίνει αποσύνδεση της πρόσβασης στο Διαδίκτυο μέσω του <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
-    <string name="bluetooth_disconnect_pan_nap_profile" product="tablet" msgid="5455448395850929200">"Η συσκευή <xliff:g id="DEVICE_NAME">%1$s</xliff:g> θα αποσυνδεθεί από την κοινή χρήση σύνδεσης tablet στο Διαδίκτυο."</string>
+    <string name="bluetooth_disconnect_pan_nap_profile" product="tablet" msgid="5455448395850929200">"Η συσκευή <xliff:g id="DEVICE_NAME">%1$s</xliff:g> θα αποσυνδεθεί από την κοινή χρήση σύνδεσης ταμπλέτας στο Διαδίκτυο."</string>
     <string name="bluetooth_disconnect_pan_nap_profile" product="default" msgid="5266851881175033601">"Η συσκευή <xliff:g id="DEVICE_NAME">%1$s</xliff:g> θα αποσυνδεθεί από κοινή χρήση σύνδεσης τηλεφώνου στο Διαδ."</string>
     <string name="bluetooth_device_advanced_title" msgid="6066342531927499308">"Συσκευή Bluetooth σε ζεύξη"</string>
     <string name="bluetooth_device_advanced_online_mode_title" msgid="3689050071425683114">"Σύνδεση"</string>
@@ -514,7 +514,7 @@
     <string name="wifi_display_summary_off" msgid="2445210133184740611">"Ανενεργή"</string>
     <string name="wifi_display_summary_disabled" msgid="5318394806146587849">"Έχει απενεργοποιηθεί"</string>
     <string name="nfc_quick_toggle_title" msgid="6769159366307299004">"NFC"</string>
-    <string name="nfc_quick_toggle_summary" product="tablet" msgid="8302974395787498915">"Να επιτρέπεται η ανταλλαγή δεδομένων όταν το tablet έρχεται σε επαφή με μια άλλη συσκευή"</string>
+    <string name="nfc_quick_toggle_summary" product="tablet" msgid="8302974395787498915">"Να επιτρέπεται η ανταλλαγή δεδομένων όταν η ταμπλέτα έρχεται σε επαφή με μια άλλη συσκευή"</string>
     <string name="nfc_quick_toggle_summary" product="default" msgid="5237208142892767592">"Να επιτρέπεται η ανταλλαγή δεδομένων όταν το τηλέφωνο αγγίζει μια άλλη συσκευή"</string>
     <string name="android_beam_settings_title" msgid="7832812974600338649">"Android Beam"</string>
     <string name="android_beam_on_summary" msgid="3618057099355636830">"Έτοιμο για μετάδοση περιεχομένου εφαρμογής μέσω NFC"</string>
@@ -560,7 +560,7 @@
     <string name="wifi_other_network" msgid="1048006316504242214">"Άλλο δίκτυο…"</string>
     <string name="wifi_more" msgid="3195296805089107950">"Περισσότερα"</string>
     <string name="wifi_setup_wps" msgid="8128702488486283957">"Αυτόματη ρύθμιση (WPS)"</string>
-    <string name="wifi_required_info_text" msgid="9014073093293520112">"Για να ολοκληρώσετε τη ρύθμιση, το tablet σας χρειάζεται πρόσβαση σε δίκτυο Wi-Fi. Μετά τη ρύθμιση, μπορείτε να κάνετε εναλλαγή μεταξύ δεδομένων κινητής τηλεφωνίας και δικτύου Wi-Fi."</string>
+    <string name="wifi_required_info_text" msgid="9014073093293520112">"Για να ολοκληρώσετε τη ρύθμιση, η ταμπλέτα σας χρειάζεται πρόσβαση σε δίκτυο Wi-Fi. Μετά τη ρύθμιση, μπορείτε να κάνετε εναλλαγή μεταξύ δεδομένων κινητής τηλεφωνίας και δικτύου Wi-Fi."</string>
     <string name="wifi_show_advanced" msgid="1793703023711426246">"Εμφάνιση σύνθετων επιλογών"</string>
     <string name="wifi_wps_setup_title" msgid="6034518116333042484">"Ρύθμιση προστατευόμενου Wi-Fi"</string>
     <string name="wifi_wps_setup_msg" msgid="315174329121275092">"Έναρξη WPS…"</string>
@@ -610,11 +610,11 @@
     <string name="wifi_cancel" msgid="6763568902542968964">"Ακύρωση"</string>
     <string name="wifi_skip_anyway" msgid="6965361454438011190">"Παράλειψη"</string>
     <string name="wifi_dont_skip" msgid="7350341524881124808">"Χωρίς παράλειψη"</string>
-    <string name="wifi_skipped_message" product="tablet" msgid="3335132188969450252">"ΠΡΟΕΙΔΟΠΟΙΗΣΗ: ενδέχεται να ισχύουν επιπλέον χρεώσεις από την εταιρεία κινητής τηλεφωνίας."\n\n"Η ρύθμιση του tablet μπορεί να προκαλέσει μεγάλη δραστηριότητα δικτύου."</string>
+    <string name="wifi_skipped_message" product="tablet" msgid="3335132188969450252">"ΠΡΟΕΙΔΟΠΟΙΗΣΗ: ενδέχεται να ισχύουν επιπλέον χρεώσεις από την εταιρεία κινητής τηλεφωνίας."\n\n"Η ρύθμιση της ταμπλέτας μπορεί να προκαλέσει μεγάλη δραστηριότητα δικτύου."</string>
     <string name="wifi_skipped_message" product="default" msgid="1192848364146401759">"ΠΡΟΕΙΔΟΠΟΙΗΣΗ: ενδέχεται να ισχύουν επιπλέον χρεώσεις από την εταιρεία κινητής τηλεφωνίας."\n\n"Η ρύθμιση του τηλεφώνου μπορεί να προκαλέσει μεγάλη δραστηριότητα δικτύου."</string>
-    <string name="wifi_and_mobile_skipped_message" product="tablet" msgid="7682836089429990118">"ΠΡΟΕΙΔΟΠΟΙΗΣΗ: το tablet δεν θα είναι σε θέση να επαληθεύσει ότι το λογισμικό σας είναι ενημερωμένο."</string>
+    <string name="wifi_and_mobile_skipped_message" product="tablet" msgid="7682836089429990118">"ΠΡΟΕΙΔΟΠΟΙΗΣΗ: η ταμπλέτα δεν θα είναι σε θέση να επαληθεύσει ότι το λογισμικό σας είναι ενημερωμένο."</string>
     <string name="wifi_and_mobile_skipped_message" product="default" msgid="3324261421359832263">"ΠΡΟΕΙΔΟΠΟΙΗΣΗ: το τηλέφωνο δεν θα είναι σε θέση να επαληθεύσει ότι το λογισμικό σας είναι ενημερωμένο."</string>
-    <string name="wifi_connect_failed_message" product="tablet" msgid="6904081070290941807">"Δεν ήταν δυνατή η σύνδεση του tablet σε αυτό το δίκτυο Wi-Fi."</string>
+    <string name="wifi_connect_failed_message" product="tablet" msgid="6904081070290941807">"Δεν ήταν δυνατή η σύνδεση της ταμπλέτας σε αυτό το δίκτυο Wi-Fi."</string>
     <string name="wifi_connect_failed_message" product="default" msgid="3894921379368046855">"Δεν ήταν δυνατή η σύνδεση του τηλεφώνου σε αυτό το δίκτυο Wi-Fi."</string>
     <string name="wifi_advanced_titlebar" msgid="1627063574532930090">"Σύνθετο Wi-Fi"</string>
     <string name="wifi_setting_frequency_band_title" msgid="7493768705046080060">"Ζώνη συχνοτήτων Wi-Fi"</string>
@@ -694,25 +694,25 @@
     <string name="dock_audio_settings_title" msgid="3324750259959570305">"Ήχος"</string>
     <string name="dock_audio_summary_desk" msgid="6487784412371139335">"Ρυθμίσεις για τη συνδεδεμένη βάση σύνδεσης υπολογιστή"</string>
     <string name="dock_audio_summary_car" msgid="6740897586006248450">"Ρυθμίσεις για τη συνδεδεμένη βάση σύνδεσης αυτοκινήτου"</string>
-    <string name="dock_audio_summary_none" product="tablet" msgid="8215337394914283607">"Το tablet δεν βρίσκεται στη βάση σύνδεσής του"</string>
+    <string name="dock_audio_summary_none" product="tablet" msgid="8215337394914283607">"Η ταμπλέτα δεν βρίσκεται στη βάση σύνδεσής του"</string>
     <string name="dock_audio_summary_none" product="default" msgid="289909253741048784">"Το τηλέφωνο δεν βρίσκεται στη βάση σύνδεσής του"</string>
     <string name="dock_audio_summary_unknown" msgid="4465059868974255693">"Ρυθμίσεις για τη συνδεδεμένη βάσης σύνδεσης"</string>
     <string name="dock_not_found_title" msgid="3290961741828952424">"Η βάση σύνδεσης δεν βρέθηκε"</string>
-    <string name="dock_not_found_text" product="tablet" msgid="8405432495282299143">"Θα πρέπει να συνδέσετε το tablet πριν από τη ρύθμιση του ήχου της βάσης σύνδεσης."</string>
+    <string name="dock_not_found_text" product="tablet" msgid="8405432495282299143">"Θα πρέπει να συνδέσετε την ταμπλέτα πριν από τη ρύθμιση του ήχου της βάσης σύνδεσης."</string>
     <string name="dock_not_found_text" product="default" msgid="1460497923342627801">"Θα πρέπει να συνδέσετε το τηλέφωνο πριν από τη ρύθμιση του ήχου της βάσης σύνδεσης."</string>
     <string name="dock_sounds_enable_title" msgid="885839627097024110">"Ήχος κατά την εισαγωγή στη βάση σύνδεσης"</string>
-    <string name="dock_sounds_enable_summary_on" product="tablet" msgid="838102386448981339">"Να αναπαράγεται ήχος κατά την εισαγωγή ή εξαγωγή του tablet από τη βάση σύνδεσης"</string>
+    <string name="dock_sounds_enable_summary_on" product="tablet" msgid="838102386448981339">"Να αναπαράγεται ήχος κατά την εισαγωγή ή εξαγωγή της ταμπλέτας από τη βάση σύνδεσης"</string>
     <string name="dock_sounds_enable_summary_on" product="default" msgid="8491180514199743771">"Να αναπαράγεται ήχος κατά την εισαγωγή ή εξαγωγή του τηλεφώνου από τη βάση σύνδεσης"</string>
-    <string name="dock_sounds_enable_summary_off" product="tablet" msgid="5077843049805652363">"Να μην αναπαράγεται ήχος κατά την εισαγωγή ή εξαγωγή του tablet από τη βάση σύνδεσης"</string>
+    <string name="dock_sounds_enable_summary_off" product="tablet" msgid="5077843049805652363">"Να μην αναπαράγεται ήχος κατά την εισαγωγή ή εξαγωγή της ταμπλέτας από τη βάση σύνδεσης"</string>
     <string name="dock_sounds_enable_summary_off" product="default" msgid="3151046599205265919">"Να μην αναπαράγεται ήχος κατά την εισαγωγή ή εξαγωγή του τηλεφώνου από τη βάση σύνδεσης"</string>
     <string name="account_settings" msgid="6403589284618783461">"Λογαριασμοί"</string>
     <string name="search_settings" msgid="1910951467596035063">"Αναζήτηση"</string>
     <string name="search_settings_summary" msgid="9205656546570654169">"Διαχείριση ρυθμίσεων αναζήτησης και ιστορικού"</string>
     <string name="display_settings" msgid="7965901687241669598">"Προβολή"</string>
     <string name="accelerometer_title" msgid="7854608399547349157">"Αυτόματη περιστροφή οθόνης"</string>
-    <string name="accelerometer_summary_on" product="tablet" msgid="429982132339828942">"Αυτόματη εναλλαγή προσανατολισμού κατά την περιστροφή του tablet"</string>
+    <string name="accelerometer_summary_on" product="tablet" msgid="429982132339828942">"Αυτόματη εναλλαγή προσανατολισμού κατά την περιστροφή της ταμπλέτας"</string>
     <string name="accelerometer_summary_on" product="default" msgid="1133737282813048021">"Αυτόματη εναλλαγή προσανατολισμού κατά την περιστροφή του τηλεφώνου"</string>
-    <string name="accelerometer_summary_off" product="tablet" msgid="4781734213242521682">"Αυτόματη εναλλαγή προσανατολισμού κατά την περιστροφή του tablet"</string>
+    <string name="accelerometer_summary_off" product="tablet" msgid="4781734213242521682">"Αυτόματη εναλλαγή προσανατολισμού κατά την περιστροφή της ταμπλέτας"</string>
     <string name="accelerometer_summary_off" product="default" msgid="5485489363715740761">"Αυτόματη εναλλαγή προσανατολισμού κατά την περιστροφή του τηλεφώνου"</string>
     <string name="brightness" msgid="2354961343555249270">"Φωτεινότητα"</string>
     <string name="brightness_summary" msgid="838917350127550703">"Ρύθμιση της φωτεινότητας της οθόνης"</string>
@@ -737,9 +737,9 @@
     <string name="sim_lock_settings_category" msgid="5136244267576697004">"Ορισμός κλειδώματος κάρτας SIM"</string>
     <string name="sim_lock_settings_title" msgid="9018585580955414596">"Κλείδωμα κάρτας SIM"</string>
     <string name="sim_pin_toggle" msgid="1742123478029451888">"Κλείδωμα κάρτας SIM"</string>
-    <string name="sim_lock_on" product="tablet" msgid="5058355081270397764">"Απαιτείται αριθμός PIN για τη χρήση του tablet"</string>
+    <string name="sim_lock_on" product="tablet" msgid="5058355081270397764">"Απαιτείται αριθμός PIN για τη χρήση της ταμπλέτας"</string>
     <string name="sim_lock_on" product="default" msgid="2503536505568814324">"Απαιτείται αριθμός PIN για τη χρήση του τηλεφώνου"</string>
-    <string name="sim_lock_off" product="tablet" msgid="2813800553917012356">"Απαιτείται αριθμός PIN για τη χρήση του tablet"</string>
+    <string name="sim_lock_off" product="tablet" msgid="2813800553917012356">"Απαιτείται αριθμός PIN για τη χρήση της ταμπλέτας"</string>
     <string name="sim_lock_off" product="default" msgid="258981978215428916">"Απαιτείται αριθμός PIN για τη χρήση του τηλεφώνου"</string>
     <string name="sim_pin_change" msgid="6311414184279932368">"Αλλαγή αριθμού PIN κάρτας SIM"</string>
     <string name="sim_enter_pin" msgid="6608715137008508432">"Αριθμός PIN κάρτας SIM"</string>
@@ -764,7 +764,7 @@
     <string name="model_number" msgid="3765737700545384794">"Αριθμός μοντέλου"</string>
     <string name="fcc_equipment_id" msgid="149114368246356737">"Αναγνωριστικό εξοπλισμού"</string>
     <string name="baseband_version" msgid="1848990160763524801">"Έκδοση βασικού φάσματος"</string>
-    <string name="kernel_version" msgid="9192574954196167602">"Έκδοση Kernel"</string>
+    <string name="kernel_version" msgid="9192574954196167602">"Έκδοση πυρήνα"</string>
     <string name="build_number" msgid="3075795840572241758">"Αριθμός έκδοσης"</string>
     <string name="selinux_status" msgid="6212165375172061672">"Κατάσταση SELinux"</string>
     <string name="device_info_not_available" msgid="8062521887156825182">"Δεν είναι διαθέσιμο"</string>
@@ -892,7 +892,7 @@
     <string name="menu_restore" msgid="8260067415075573273">"Επαναφορά στις προεπιλογές"</string>
     <string name="restore_default_apn_completed" msgid="2824775307377604897">"Η επαναφορά των εργοστασιακών ρυθμίσεων APN ολοκληρώθηκε."</string>
     <string name="master_clear_title" msgid="5907939616087039756">"Επαναφορά εργοστασιακών δεδομένων"</string>
-    <string name="master_clear_summary" product="tablet" msgid="4036344100254678429">"Διαγραφή όλων των δεδομένων στο tablet"</string>
+    <string name="master_clear_summary" product="tablet" msgid="4036344100254678429">"Διαγραφή όλων των δεδομένων στην ταμπλέτα"</string>
     <string name="master_clear_summary" product="default" msgid="4986154238001088492">"Διαγραφή όλων των δεδομένων στο τηλέφωνο"</string>
     <string name="master_clear_desc" product="tablet" msgid="8317211882509025841">"Με αυτόν τον τρόπο, θα διαγραφούν όλα τα δεδομένα από τον "<b>"εσωτερικό χώρο αποθήκευσης"</b>" της συσκευής σας tablet, συμπεριλαμβανομένων:"\n\n"Των δεδομένων και των ρυθμίσεων συστήματος "<li>"του Λογαριασμού σας Google "</li>\n<li></li>\n<li>"Ληφθείσες εφαρμογές"</li></string>
     <string name="master_clear_desc" product="default" msgid="9165016501623540228">"Με αυτόν τον τρόπο, θα διαγραφούν όλα τα δεδομένα από τον "<b>"εσωτερικό χώρο αποθήκευσης"</b>" της συσκευής σας tablet, συμπεριλαμβανομένων:"\n\n"Των δεδομένων και των ρυθμίσεων συστήματος "<li>"του Λογαριασμού σας Google "</li>\n<li></li>\n<li>"Ληφθείσες εφαρμογές"</li></string>
@@ -941,7 +941,7 @@
     <string name="usb_tethering_unavailable_subtext" msgid="1044622421184007254">"Το USB δεν συνδέθηκε"</string>
     <string name="usb_tethering_errored_subtext" msgid="1377574819427841992">"Σφάλμα πρόσδεσης USB"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="2379175828878753652">"Πρόσδεση Bluetooth"</string>
-    <string name="bluetooth_tethering_available_subtext" product="tablet" msgid="8811610320942954709">"Κοινή χρήση της σύνδεσης του tablet στο Διαδίκτυο"</string>
+    <string name="bluetooth_tethering_available_subtext" product="tablet" msgid="8811610320942954709">"Κοινή χρήση της σύνδεσης της ταμπλέτας στο Διαδίκτυο"</string>
     <string name="bluetooth_tethering_available_subtext" product="default" msgid="4229220575771946723">"Κοινή χρήση της σύνδεσης τηλεφώνου στο Διαδίκτυο"</string>
     <string name="bluetooth_tethering_device_connected_subtext" product="tablet" msgid="2730938191906597896">"Κοινή χρήση σύνδεσης tablet στο Διαδίκτυο με 1 συσκευή"</string>
     <string name="bluetooth_tethering_device_connected_subtext" product="default" msgid="1666736165420290466">"Κοινή χρήση σύνδεσης τηλεφώνου στο Διαδίκτυο με 1 συσκευή"</string>
@@ -959,7 +959,7 @@
     <string name="location_neighborhood_level" msgid="5626515380188353712">"Να επιτρ.σε εφαρμ.να χρησ.την υπηρεσία τοποθ.της Google για γρήγ.εκτίμ.τοποθ. Θα συλλ.ανών.δεδομ.τοποθ.και θα αποστ.στην Google."</string>
     <string name="location_neighborhood_level_wifi" msgid="7457348712272184793">"Η τοποθεσία καθορίζεται από το Wi-Fi"</string>
     <string name="location_gps" msgid="8392461023569708478">"Δορυφόροι GPS"</string>
-    <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Να επιτρέπεται στις εφαρμογές η χρήση του GPS στο tablet σας για την επισήμανση της τοποθεσίας σας"</string>
+    <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Να επιτρέπεται στις εφαρμογές η χρήση του GPS στην ταμπλέτα σας για την επισήμανση της τοποθεσίας σας"</string>
     <string name="location_street_level" product="default" msgid="4617445745492014203">"Να επιτρέπεται στις εφαρμογές η χρήση του GPS στο τηλέφωνό σας για την επισήμανση της τοποθεσίας σας"</string>
     <string name="assisted_gps" msgid="4649317129586736885">"Χρήση υποβοηθούμενου GPS"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Χρήση διακομιστή για βοήθεια GPS (αποεπιλογή για να μειώσετε τη χρήση του δικτύου)"</string>
@@ -969,7 +969,7 @@
     <string name="location_access_title" msgid="7064108942964081243">"Πρόσβαση στην τοποθεσία μου"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Να επιτρέπεται σε εφαρμογές που έχουν ζητήσει την άδειά σας να χρησιμοποιούν τις πληροφορίες τοποθεσίας σας"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Πηγές τοποθεσίας"</string>
-    <string name="about_settings" product="tablet" msgid="593457295516533765">"Σχετικά με το tablet"</string>
+    <string name="about_settings" product="tablet" msgid="593457295516533765">"Σχετικά με την ταμπλέτα"</string>
     <string name="about_settings" product="default" msgid="1743378368185371685">"Σχετικά με το τηλέφωνο"</string>
     <string name="about_settings_summary" msgid="3371517697156165959">"Προβολή νομικών πληροφοριών, κατάστασης, έκδοσης λογισμικού"</string>
     <string name="legal_information" msgid="5769301644270604095">"Νομικές πληροφορίες"</string>
@@ -1032,7 +1032,7 @@
     <string name="applications_settings_header" msgid="1014813055054356646">"Ρυθμίσεις εφαρμογής"</string>
     <string name="install_applications" msgid="4872012136210802181">"Άγνωστες πηγές"</string>
     <string name="install_unknown_applications" msgid="176855644862942064">"Να επιτρέπεται η εγκατάσταση εφαρμογών από άγνωστες πηγές"</string>
-    <string name="install_all_warning" product="tablet" msgid="3263360446508268880">"Η συσκευή σας tablet και τα προσωπικά σας δεδομένα είναι περισσότερο ευάλωτα σε επιθέσεις από εφαρμογές από άγνωστες προελεύσεις. Συμφωνείτε ότι είστε αποκλειστικά υπεύθυνοι για τυχόν βλάβη η οποία ενδέχεται να δημιουργηθεί στο tablet σας ή τυχόν απώλεια δεδομένων η οποία ενδέχεται να προκύψει μέσα από τη χρήση αυτών των εφαρμογών."</string>
+    <string name="install_all_warning" product="tablet" msgid="3263360446508268880">"Η συσκευή σας tablet και τα προσωπικά σας δεδομένα είναι περισσότερο ευάλωτα σε επιθέσεις από εφαρμογές από άγνωστες προελεύσεις. Συμφωνείτε ότι είστε αποκλειστικά υπεύθυνοι για τυχόν βλάβη η οποία ενδέχεται να δημιουργηθεί στην ταμπλέτα σας ή τυχόν απώλεια δεδομένων η οποία ενδέχεται να προκύψει μέσα από τη χρήση αυτών των εφαρμογών."</string>
     <string name="install_all_warning" product="default" msgid="8113734576826384682">"Το τηλέφωνό σας και τα προσωπικά δεδομένα σας είναι ευάλωτα σε επιθέσεις από εφαρμογές που προέρχονται από άγνωστες πηγές. Συμφωνείτε ότι είστε οι μοναδικοί υπεύθυνοι για κάθε ζημιά στο τηλέφωνο ή για απώλεια δεδομένων που ενδέχεται να προκύψουν από τη χρήση τέτοιων εφαρμογών."</string>
     <string name="verify_applications" msgid="2959359554974828518">"Επαλήθευση εφαρμογών"</string>
     <string name="verify_applications_summary" msgid="6737505521913263792">"Να μην επιτρέπεται ή να γίνεται προειδοποίηση πριν από την εγκατάσταση εφαρμογών που μπορεί να είναι επικίνδυνες"</string>
@@ -1104,9 +1104,9 @@
     <string name="app_factory_reset_dlg_text" msgid="6371247225487725860">"Θα καταργηθεί η εγκατάσταση όλων των ενημερώσεων σε αυτήν την εφαρμογή συστήματος Android."</string>
     <string name="clear_failed_dlg_title" msgid="2387060805294783175">"Εκκαθάριση δεδομένων"</string>
     <string name="clear_failed_dlg_text" msgid="1092177570631523106">"Δεν ήταν δυνατή η εκκαθάριση δεδομένων για την εφαρμογή."</string>
-    <string name="security_settings_desc" product="tablet" msgid="1292421279262430109">"Αυτή η εφαρμογή μπορεί να αποκτήσει πρόσβαση στα ακόλουθα στο tablet σας:"</string>
+    <string name="security_settings_desc" product="tablet" msgid="1292421279262430109">"Αυτή η εφαρμογή μπορεί να αποκτήσει πρόσβαση στα ακόλουθα στην ταμπλέτα σας:"</string>
     <string name="security_settings_desc" product="default" msgid="61749028818785244">"Αυτή η εφαρμογή μπορεί να αποκτήσει πρόσβαση στα ακόλουθα στο τηλέφωνό σας:"</string>
-    <string name="security_settings_desc_multi" product="tablet" msgid="7300932212437084403">"Αυτή η εφαρμογή έχει τη δυνατότητα πρόσβασης στα παρακάτω στοιχεία στο tablet σας. Προκειμένου να βελτιωθεί η απόδοση και να περιοριστεί η χρήση μνήμης, ορισμένα από αυτά τα δικαιώματα είναι διαθέσιμα στην εφαρμογή <xliff:g id="BASE_APP_NAME">%1$s</xliff:g> καθώς εκτελείται με την ίδια διαδικασία με τις εφαρμογές <xliff:g id="ADDITIONAL_APPS_LIST">%2$s</xliff:g>:"</string>
+    <string name="security_settings_desc_multi" product="tablet" msgid="7300932212437084403">"Αυτή η εφαρμογή έχει τη δυνατότητα πρόσβασης στα παρακάτω στοιχεία στην ταμπλέτα σας. Προκειμένου να βελτιωθεί η απόδοση και να περιοριστεί η χρήση μνήμης, ορισμένα από αυτά τα δικαιώματα είναι διαθέσιμα στην εφαρμογή <xliff:g id="BASE_APP_NAME">%1$s</xliff:g> καθώς εκτελείται με την ίδια διαδικασία με τις εφαρμογές <xliff:g id="ADDITIONAL_APPS_LIST">%2$s</xliff:g>:"</string>
     <string name="security_settings_desc_multi" product="default" msgid="6610268420793984752">"Αυτή η εφαρμογή έχει τη δυνατότητα πρόσβασης στα παρακάτω στοιχεία στο τηλέφωνό σας. Προκειμένου να βελτιωθεί η απόδοση και να περιοριστεί η χρήση μνήμης, ορισμένα από αυτά τα δικαιώματα είναι διαθέσιμα στην εφαρμογή<xliff:g id="BASE_APP_NAME">%1$s</xliff:g> καθώς εκτελείται με την ίδια διαδικασία με τις εφαρμογές <xliff:g id="ADDITIONAL_APPS_LIST">%2$s</xliff:g>:"</string>
     <string name="join_two_items" msgid="1336880355987539064">"<xliff:g id="FIRST_ITEM">%1$s</xliff:g> και <xliff:g id="SECOND_ITEM">%2$s</xliff:g>"</string>
     <string name="join_many_items_last" msgid="5925635036718502724">"<xliff:g id="ALL_BUT_LAST_ITEM">%1$s</xliff:g> και <xliff:g id="LAST_ITEM_0">%2$s</xliff:g>"</string>
@@ -1176,7 +1176,7 @@
     <string name="process_service_in_use_description" msgid="8993335064403217080">"Η υπηρεσία <xliff:g id="COMP_NAME">%1$s</xliff:g> χρησιμοποιείται."</string>
     <string name="process_provider_in_use_description" msgid="5586603325677678940">"Ο πάροχος <xliff:g id="COMP_NAME">%1$s</xliff:g> χρησιμοποιείται."</string>
     <string name="runningservicedetails_stop_dlg_title" msgid="4253292537154337233">"Διακοπή υπηρεσίας συστήματος;"</string>
-    <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="3371302398335665793">"Αν διακόψετε τη λειτουργία αυτής της συσκευής, ενδέχεται να σταματήσει η σωστή εκτέλεση ορισμένων λειτουργιών του tablet σας, μέχρι να το απενεργοποιήσετε και να το ενεργοποιήσετε ξανά."</string>
+    <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="3371302398335665793">"Αν διακόψετε τη λειτουργία αυτής της συσκευής, ενδέχεται να σταματήσει η σωστή εκτέλεση ορισμένων λειτουργιών της ταμπλέτας σας, μέχρι να το απενεργοποιήσετε και να το ενεργοποιήσετε ξανά."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="3920243762189484756">"Αν διακόψετε τη λειτουργία αυτής της συσκευής, ενδέχεται να σταματήσει η σωστή εκτέλεση ορισμένων λειτουργιών του τηλεφώνου σας, μέχρι να το απενεργοποιήσετε και να το ενεργοποιήσετε ξανά."</string>
     <string name="language_settings" msgid="5292716747264442359">"Γλώσσα και εισαγωγή"</string>
     <string name="language_keyboard_settings_title" msgid="243220021717425813">"Γλώσσα και εισαγωγή"</string>
@@ -1323,7 +1323,7 @@
     <string name="accessibility_script_injection_button_allow" msgid="2201503285877102870">"Να επιτραπεί"</string>
     <string name="accessibility_script_injection_button_disallow" msgid="5697152768523270885">"Να μην επιτρέπεται"</string>
     <string name="accessibility_service_security_warning_title" msgid="5421628151509995404">"Χρήση <xliff:g id="SERVICE">%1$s</xliff:g>;"</string>
-    <string name="accessibility_service_security_warning_summary" product="tablet" msgid="8558441850832543571">"Η υπηρεσία <xliff:g id="ACCESSIBILITY_SERVICE_NAME">%1$s</xliff:g> μπορεί να συλλέξει όλο το κείμενο που πληκτρολογείτε, εκτός από τους κωδικούς πρόσβασης. Αυτό περιλαμβάνει προσωπικά δεδομένα όπως αριθμούς πιστωτικών καρτών. Μπορεί επίσης να συλλέξει δεδομένα σχετικά με τις αλληλεπιδράσεις σας με το tablet."</string>
+    <string name="accessibility_service_security_warning_summary" product="tablet" msgid="8558441850832543571">"Η υπηρεσία <xliff:g id="ACCESSIBILITY_SERVICE_NAME">%1$s</xliff:g> μπορεί να συλλέξει όλο το κείμενο που πληκτρολογείτε, εκτός από τους κωδικούς πρόσβασης. Αυτό περιλαμβάνει προσωπικά δεδομένα όπως αριθμούς πιστωτικών καρτών. Μπορεί επίσης να συλλέξει δεδομένα σχετικά με τις αλληλεπιδράσεις σας με την ταμπλέτα."</string>
     <string name="accessibility_service_security_warning_summary" product="default" msgid="2869015914319424723">"Η υπηρεσία <xliff:g id="ACCESSIBILITY_SERVICE_NAME">%1$s</xliff:g> μπορεί να συλλέξει όλο το κείμενο που πληκτρολογείτε, εκτός από τους κωδικούς πρόσβασης. Αυτό περιλαμβάνει προσωπικά δεδομένα όπως αριθμούς πιστωτικών καρτών. Μπορεί επίσης να συλλέξει δεδομένα σχετικά με τις αλληλεπιδράσεις σας με το τηλέφωνο."</string>
     <string name="accessibility_service_disable_warning_title" msgid="3393956845814484859">"Διακοπή <xliff:g id="SERVICE">%1$s</xliff:g>;"</string>
     <string name="accessibility_service_disable_warning_summary" msgid="625013894287895398">"Αγγίξτε το OK για να διακοπεί η υπηρεσία <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
@@ -1385,7 +1385,7 @@
     <string name="battery_action_wifi" msgid="2272741639606146903">"Ρυθμίσεις Wi-Fi"</string>
     <string name="battery_action_bluetooth" msgid="8374789049507723142">"Ρυθμίσεις Bluetooth"</string>
     <string name="battery_desc_voice" msgid="8980322055722959211">"Μπαταρία που χρησιμοποιείται από φωνητικές κλήσεις"</string>
-    <string name="battery_desc_standby" product="tablet" msgid="6284747418668280364">"Χρήση μπαταρίας όταν το tablet είναι σε αδράνεια"</string>
+    <string name="battery_desc_standby" product="tablet" msgid="6284747418668280364">"Χρήση μπαταρίας όταν η ταμπλέτα είναι σε αδράνεια"</string>
     <string name="battery_desc_standby" product="default" msgid="3009080001948091424">"Χρήση μπαταρίας όταν το τηλέφωνο είναι αδρανές"</string>
     <string name="battery_desc_radio" msgid="5479196477223185367">"Μπαταρία που χρησιμοποιείται από πομπό κυψέλης"</string>
     <string name="battery_sugg_radio" msgid="8211336978326295047">"Μετάβαση στη λειτουργία πτήσης για εξοικονόμηση ενέργειας σε περιοχές που προσφέρουν κάλυψη κυψέλης"</string>
@@ -1594,9 +1594,9 @@
     <string name="header_add_an_account" msgid="756108499532023798">"Προσθήκη λογαριασμού"</string>
     <string name="finish_button_label" msgid="481587707657751116">"Τέλος"</string>
     <string name="really_remove_account_title" msgid="8800653398717172460">"Κατάργηση λογαριασμού;"</string>
-    <string name="really_remove_account_message" product="tablet" msgid="1936147502815641161">"Η κατάργηση αυτού του λογαριασμού θα έχει σαν αποτέλεσμα τη διαγραφή όλων των μηνυμάτων, των επαφών και άλλων δεδομένων του από το tablet!"</string>
+    <string name="really_remove_account_message" product="tablet" msgid="1936147502815641161">"Η κατάργηση αυτού του λογαριασμού θα έχει σαν αποτέλεσμα τη διαγραφή όλων των μηνυμάτων, των επαφών και άλλων δεδομένων του από την ταμπλέτα!"</string>
     <string name="really_remove_account_message" product="default" msgid="3483528757922948356">"Η κατάργηση αυτού του λογαριασμού θα έχει σαν αποτέλεσμα τη διαγραφή όλων των μηνυμάτων, των επαφών και άλλων δεδομένων του από το τηλέφωνο!"</string>
-    <string name="remove_account_failed" product="tablet" msgid="3086620478225952725">"Αυτός ο λογαριασμός απαιτείται από ορισμένες εφαρμογές. Μπορείτε να τον καταργήσετε μόνο μέσω της επαναφοράς των προεπιλεγμένων εργοστασιακών ρυθμίσεων του tablet (με την οποία διαγράφονται όλα τα προσωπικά σας δεδομένα) από το μενού Ρυθμίσεις &gt; Δημιουργία αντιγράφων ασφαλείας και επαναφορά."</string>
+    <string name="remove_account_failed" product="tablet" msgid="3086620478225952725">"Αυτός ο λογαριασμός απαιτείται από ορισμένες εφαρμογές. Μπορείτε να τον καταργήσετε μόνο μέσω της επαναφοράς των προεπιλεγμένων εργοστασιακών ρυθμίσεων της ταμπλέτας (με την οποία διαγράφονται όλα τα προσωπικά σας δεδομένα) από το μενού Ρυθμίσεις &gt; Δημιουργία αντιγράφων ασφαλείας και επαναφορά."</string>
     <string name="remove_account_failed" product="default" msgid="6217238709175617517">"Αυτός ο λογαριασμός απαιτείται από ορισμένες εφαρμογές. Μπορείτε να τον καταργήσετε μόνο μέσω της επαναφοράς των προεπιλεγμένων εργοστασιακών ρυθμίσεων του τηλεφώνου (με την οποία διαγράφονται όλα τα προσωπικά σας δεδομένα) από το μενού Ρυθμίσεις &gt; Δημιουργία αντιγράφων ασφαλείας και επαναφορά."</string>
     <string name="provider_label" msgid="7724593781904508866">"Προώθηση συνδρομών"</string>
     <!-- no translation found for sync_item_title (4782834606909853006) -->
@@ -1706,7 +1706,7 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Αυτή η λειτουργία μπορεί να κάνει μια εφαρμογή που βασίζεται στα δεδομένα παρασκηνίου να πάψει να λειτουργεί σωστά όταν διατίθενται μόνο δίκτυα κινητής τηλεφωνίας ."\n\n"Μπορείτε να βρείτε περισσότερα κατάλληλα στοιχεία ελέγχου χρήσης δεδομένων στις ρυθμίσεις που διατίθενται στην εφαρμογή."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="7086969103661420799">"Ο περιορισμός των δεδομένων παρασκηνίου είναι δυνατός μόνο όταν έχετε ορίσει ένα όριο δεδομένων κινητής τηλεφωνίας."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Ενεργοπ. αυτόμ. συγχρ. δεδομ.;"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="7312283529426636845">"Θα γίνεται αυτόματη αντιγραφή τυχόν αλλαγών που πραγματοποιείτε στους λογαριασμούς σας στον ιστό στο tablet σας."\n\n"Σε ορισμένους λογαριασμούς ενδέχεται να γίνεται αυτόματη αντιγραφή τυχόν αλλαγών που πραγματοποιείτε στο tablet σας στον ιστό. Ένας Λογαριασμός Google λειτουργεί με αυτόν τον τρόπο."\n\n"Για να επιλέξετε το είδος των πληροφοριών που συγχρονίζονται σε κάθε λογαριασμό, μεταβείτε στην περιοχή Ρυθμίσεις &gt; Λογαριασμοί."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="7312283529426636845">"Θα γίνεται αυτόματη αντιγραφή τυχόν αλλαγών που πραγματοποιείτε στους λογαριασμούς σας στον ιστό στην ταμπλέτα σας."\n\n"Σε ορισμένους λογαριασμούς ενδέχεται να γίνεται αυτόματη αντιγραφή τυχόν αλλαγών που πραγματοποιείτε στην ταμπλέτα σας στον ιστό. Ένας Λογαριασμός Google λειτουργεί με αυτόν τον τρόπο."\n\n"Για να επιλέξετε το είδος των πληροφοριών που συγχρονίζονται σε κάθε λογαριασμό, μεταβείτε στην περιοχή Ρυθμίσεις &gt; Λογαριασμοί."</string>
     <string name="data_usage_auto_sync_on_dialog" product="default" msgid="2374996799819303283">"Θα γίνεται αυτόματη αντιγραφή τυχόν αλλαγών που πραγματοποιείτε στους λογαριασμούς σας στον ιστό στο τηλέφωνό σας."\n\n"Σε ορισμένους λογαριασμούς ενδέχεται να γίνεται αυτόματη αντιγραφή τυχόν αλλαγών που πραγματοποιείτε στο τηλέφωνό σας στον ιστό. Ένας Λογαριασμός Google λειτουργεί με αυτόν τον τρόπο."\n\n"Για να επιλέξετε το είδος των πληροφοριών που συγχρονίζονται σε κάθε λογαριασμό, μεταβείτε στην περιοχή Ρυθμίσεις &gt; Λογαριασμοί."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Απενεργ. αυτόμ. συγχρ. δεδομ.;"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4744145757533455623">"Με αυτόν τον τρόπο θα εξοικονομήσετε δεδομένα και χρήση μπαταρίας, αλλά θα πρέπει να συγχρονίσετε κάθε λογαριασμό με μη αυτόματο τρόπο για να συλλέξετε πρόσφατες πληροφορίες. Δεν θα λαμβάνετε ειδοποιήσεις κατά τη διάρκεια των ενημερώσεων."</string>
@@ -1716,7 +1716,7 @@
     <string name="data_usage_warning_editor_title" msgid="3704136912240060339">"Ορισμός προειδοποίησης χρήσης δεδομένων"</string>
     <string name="data_usage_limit_editor_title" msgid="9153595142385030015">"Ορισμός ορίου χρήσης δεδομένων"</string>
     <string name="data_usage_limit_dialog_title" msgid="3023111643632996097">"Περιορισμός χρήσης δεδομένων"</string>
-    <string name="data_usage_limit_dialog_mobile" product="tablet" msgid="3893348029612821262">"Η σύνδεση των δεδομένων του κινητού τηλεφώνου σας θα απενεργοποιηθεί μόλις συμπληρωθεί το καθορισμένο όριο."\n\n"Επειδή η χρήση δεδομένων υπολογίζεται από το tablet σας και ενδέχεται η εταιρεία κινητής τηλεφωνίας να την υπολογίζει με διαφορετικό τρόπο, καλό θα ήταν να χρησιμοποιήσετε ένα συντηρητικό όριο."</string>
+    <string name="data_usage_limit_dialog_mobile" product="tablet" msgid="3893348029612821262">"Η σύνδεση των δεδομένων του κινητού τηλεφώνου σας θα απενεργοποιηθεί μόλις συμπληρωθεί το καθορισμένο όριο."\n\n"Επειδή η χρήση δεδομένων υπολογίζεται από η ταμπλέτα σας και ενδέχεται η εταιρεία κινητής τηλεφωνίας να την υπολογίζει με διαφορετικό τρόπο, καλό θα ήταν να χρησιμοποιήσετε ένα συντηρητικό όριο."</string>
     <string name="data_usage_limit_dialog_mobile" product="default" msgid="7962145861903746827">"Η σύνδεση των δεδομένων του κινητού τηλεφώνου σας θα απενεργοποιηθεί μόλις συμπληρωθεί το καθορισμένο όριο."\n\n"Επειδή η χρήση δεδομένων υπολογίζεται από το τηλέφωνό σας και ενδέχεται η εταιρεία κινητής τηλεφωνίας να την υπολογίζει με διαφορετικό τρόπο, σκεφτείτε το ενδεχόμενο να χρησιμοποιήσετε ένα συντηρητικό όριο."</string>
     <string name="data_usage_restrict_background_title" msgid="2201315502223035062">"Περιορ.δεδομ.παρασκην.;"</string>
     <string name="data_usage_restrict_background" msgid="6387252645350792955">"Αν περιορίσετε τα δεδομένα παρασκηνίου κινητής τηλεφωνίας, ορισμένες εφαρμογές και υπηρεσίες δεν θα λειτουργούν εκτός και αν έχετε συνδεθεί σε δίκτυο Wi-Fi."</string>
@@ -1804,18 +1804,18 @@
     <string name="user_add_user_message_long" msgid="2278524063301283723">"Μπορείτε να μοιραστείτε αυτή τη συσκευή με άλλους χρήστες δημιουργώντας επιπλέον χρήστες. Κάθε χρήστης διαθέτει τον δικό του χώρο, τον οποίο μπορεί να προσαρμόσει με τις δικές του εφαρμογές, την ταπετσαρία και ούτω καθεξής. Οι χρήστες μπορούν επίσης να προσαρμόσουν τις ρυθμίσεις tablet όπως το Wi-Fi που επηρεάζουν τους πάντες."\n\n"Αφού δημιουργήσετε έναν νέο χρήστη, αυτό το άτομο θα πρέπει να ολοκληρώσει τη διαδικασία ρύθμισης."\n\n"Οποιοδήποτε χρήστης μπορεί να αποδεχτεί ενημερωμένα δικαιώματα εφαρμογών εκ μέρους των άλλων χρηστών."</string>
     <string name="user_add_user_message_short" msgid="3310933423737035428">"Αφού δημιουργήσετε έναν νέο χρήστη, αυτό το άτομο θα πρέπει να ολοκληρώσει τη διαδικασία ρύθμισης."\n\n"Οποιοδήποτε χρήστης μπορεί να αποδεχτεί ενημερωμένα δικαιώματα εφαρμογών εκ μέρους των άλλων χρηστών."</string>
     <string name="user_setup_dialog_title" msgid="1765794166801864563">"Να γίνει ρύθμιση χρήστη τώρα;"</string>
-    <string name="user_setup_dialog_message" msgid="614037943337008555">"Βεβαιωθείτε ότι ο χρήστης έχει τη δυνατότητα να ρυθμίσει το χώρο του στο tablet"</string>
+    <string name="user_setup_dialog_message" msgid="614037943337008555">"Βεβαιωθείτε ότι ο χρήστης έχει τη δυνατότητα να ρυθμίσει το χώρο του στην ταμπλέτα"</string>
     <string name="user_setup_button_setup_now" msgid="3391388430158437629">"Ρύθμιση τώρα"</string>
     <string name="user_setup_button_setup_later" msgid="3068729597269172401">"Όχι τώρα"</string>
-    <string name="user_cannot_manage_message" product="tablet" msgid="8440449301994432789">"Μόνο ο κάτοχος του tablet μπορεί να διαχειριστεί χρήστες."</string>
+    <string name="user_cannot_manage_message" product="tablet" msgid="8440449301994432789">"Μόνο ο κάτοχος της ταμπλέτας μπορεί να διαχειριστεί χρήστες."</string>
     <string name="user_cannot_manage_message" product="default" msgid="1133251987818014757">"Μόνο ο κάτοχος του τηλεφώνου μπορεί να διαχειριστεί χρήστες."</string>
     <string name="user_remove_user_menu" msgid="6897150520686691355">"Διαγρ. <xliff:g id="USER_NAME">%1$s</xliff:g> από τη συσκ."</string>
     <string name="user_new_user_name" msgid="369856859816028856">"Νέος χρήστης"</string>
     <string name="user_confirm_remove_self_title" msgid="8432050170899479556">"Διαγραφή του εαυτού σας;"</string>
     <string name="user_confirm_remove_title" msgid="3856148232937245711">"Κατάργηση χρήστη;"</string>
-    <string name="user_confirm_remove_self_message" product="tablet" msgid="8167855311779740207">"Θα χάσετε τον χώρο και τα δεδομένα σας σε αυτό το tablet. Δεν είναι δυνατό να αναιρέσετε αυτήν την ενέργεια."</string>
+    <string name="user_confirm_remove_self_message" product="tablet" msgid="8167855311779740207">"Θα χάσετε τον χώρο και τα δεδομένα σας σε αυτήν την ταμπλέτα. Δεν είναι δυνατό να αναιρέσετε αυτήν την ενέργεια."</string>
     <string name="user_confirm_remove_self_message" product="default" msgid="5391888073786090274">"Θα χάσετε τον χώρο και τα δεδομένα σας σε αυτό το τηλέφωνο. Δεν είναι δυνατό να αναιρέσετε αυτήν την ενέργεια."</string>
-    <string name="user_confirm_remove_message" product="tablet" msgid="4610106937214870034">"Ο χώρος και τα δεδομένα αυτού του χρήστη θα εξαφανιστούν από αυτό το tablet. Δεν είναι δυνατό να αναιρέσετε αυτήν την ενέργεια."</string>
+    <string name="user_confirm_remove_message" product="tablet" msgid="4610106937214870034">"Ο χώρος και τα δεδομένα αυτού του χρήστη θα εξαφανιστούν από αυτήν την ταμπλέτα. Δεν είναι δυνατό να αναιρέσετε αυτήν την ενέργεια."</string>
     <string name="user_confirm_remove_message" product="default" msgid="8130264611683731142">"Ο χώρος και τα δεδομένα αυτού του χρήστη θα εξαφανιστούν από αυτό το τηλέφωνο. Δεν είναι δυνατό να αναιρέσετε αυτήν την ενέργεια."</string>
     <string name="user_adding_new_user" msgid="1521674650874241407">"Προσθήκη νέου χρήστη…"</string>
     <string name="user_delete_user_description" msgid="3158592592118767056">"Διαγραφή χρήστη"</string>
@@ -1830,4 +1830,28 @@
     <string name="user_picture_title" msgid="7297782792000291692">"Αναγνωριστικό φωτογραφίας"</string>
     <string name="cell_broadcast_settings" msgid="8415582011920085222">"Εκπομπές κινητής τηλεφωνίας"</string>
     <string name="cell_broadcast_settings_summary" msgid="3301339398950905913">"Επιλέξτε τους τύπους ειδοποιήσεων έκτακτης ανάγκης που θα εμφανίζονται."</string>
+	    <!-- CFX Settings -->
+    <string name="cfx_settings">Ρυθμίσεις CFX</string>
+	<!--  About device screen, Hardware info -->
+    <string name="hardware_info">Πληροφορίες υλικού</string>
+    <!--  About device Screen, hardware info, rear camera -->
+    <string name="device_rear_camera">Πίσω φωτογραφική μηχανή</string>
+    <!--  About device Screen, hardware info, front camera -->
+    <string name="device_front_camera">Μπροστινή φωτογραφική μηχανή</string>
+    <!--  About device Screen, hardware info, screen res -->
+    <string name="device_screen_resolution">Ανάλυση οθόνης</string>
+    <!--  About device Screen, hardware info, GPU info -->
+    <string name="gpu_info">Κάρτα γραφικών</string>
+    <!-- About device screen, Cpu info. -->
+    <string name="cpu_info">Επεξεργαστής</string>
+    <!-- About device screen, Chipset info -->
+    <string name="chipset_info">Ολοκληρωμένο κύκλωμα</string>
+    <!-- About phone screen, Free memory info -->
+    <string name="mem_info">Μνήμη</string>
+    <!-- About phone screen, modversion -->
+    <string name="mod_version">Έκδοση cfX</string>
+	<string name="silent_mode_title">Κατάσταση σίγασης</string>
+	<string name="volume_overlay_title">Εμφάνιση παραθύρου έντασης</string>
+	<string name="increasing_ring_title">Σταδιακή αύξηση ήχου κλήσης</string>
+	<string name="safe_headset_volume_title">Ασφαλής ένταση ακουστικών</string>
 </resources>

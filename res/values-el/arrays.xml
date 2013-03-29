@@ -295,4 +295,18 @@
     <item msgid="5077768429488260031">"Να μην επιτρέπεται ποτέ"</item>
     <item msgid="1417929597727989746">"Να επιτρέπεται πάντα"</item>
   </string-array>
+
+  <string-array name="volume_overlay_entries">
+  <item>Μονό</item>
+  <item>Επεκτάσιμο</item>
+  <item>Εκτεταμένο</item>
+  <item>Κανένα</item>
+  </string-array>
+
+  <!-- Silent mode options. -->
+  <string-array name="silent_mode_entries">
+  <item>Απενεργοποιημένο</item>
+  <item>Δόνηση</item>
+  <item>Σίγαση</item>
+  </string-array>
 </resources>
