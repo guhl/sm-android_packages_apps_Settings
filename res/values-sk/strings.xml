@@ -602,7 +602,7 @@
     <string name="wifi_secured_second_item" msgid="1326000076939056265">", zabezpečenie: <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
     <string name="wifi_security_none" msgid="7985461072596594400">"Žiadne"</string>
     <string name="wifi_mode">Režim</string>
-    <string name="wifi_mode_ibss">Ad-Hoc (IBSS) Sieť</string>
+    <string name="wifi_mode_ibss">Ad-Hoc (IBSS) sieť</string>
     <string name="wifi_mode_ibss_short">Ad-Hoc</string>
     <string name="wifi_ibss_freq_title">Kanál / Frekvencia</string>
     <string name="wifi_channel">Kanál</string>
