@@ -1437,6 +1437,13 @@
     <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
     <string name="wifi_security_eap">802.1x EAP</string>
 
+    <string name="wifi_mode">Mode</string>
+    <string name="wifi_mode_ibss">Ad-Hoc (IBSS) Network</string>
+    <string name="wifi_mode_ibss_short">Ad-Hoc</string>
+
+    <string name="wifi_ibss_freq_title">Channel / Frequency</string>
+    <string name="wifi_channel">Channel</string>
+    <string name="wifi_mhz">MHz</string>
 
     <!-- Button label to connect to a Wi-Fi network -->
     <string name="wifi_connect">Connect</string>
@@ -2149,6 +2156,10 @@
     <string name="carrier_enabled_summaryOff">APN disabled</string>
     <!-- Edit Beaerer Info of APN -->
     <string name="bearer">Bearer</string>
+    <!-- Edit Mvno Type Info of APN -->
+    <string name="mvno_type">MVNO type</string>
+    <!-- Edit Mvno Match Data Info of APN -->
+    <string name="mvno_match_data">MVNO value</string>
     <!-- Edit access point screen menu option to delete this APN -->
     <string name="menu_delete">Delete APN</string>
     <!-- APNs screen menu option to create a brand spanking new APN -->
