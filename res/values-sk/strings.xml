@@ -601,6 +601,12 @@
     <string name="wifi_secured_first_item" msgid="4072076186051083451">"Zabezpečenie: <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
     <string name="wifi_secured_second_item" msgid="1326000076939056265">", zabezpečenie: <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
     <string name="wifi_security_none" msgid="7985461072596594400">"Žiadne"</string>
+    <string name="wifi_mode">Režim</string>
+    <string name="wifi_mode_ibss">Ad-Hoc (IBSS) Sieť</string>
+    <string name="wifi_mode_ibss_short">Ad-Hoc</string>
+    <string name="wifi_ibss_freq_title">Kanál / Frekvencia</string>
+    <string name="wifi_channel">Kanál</string>
+    <string name="wifi_mhz">MHz</string>
     <string name="wifi_connect" msgid="1076622875777072845">"Pripojiť"</string>
     <string name="wifi_failed_connect_message" msgid="8491902558970292871">"Nepodarilo sa pripojiť k sieti"</string>
     <string name="wifi_forget" msgid="8168174695608386644">"Odstrániť"</string>
@@ -879,6 +885,8 @@
     <string name="carrier_enabled_summaryOn" msgid="6338915271908057531">"Názov prístupového bodu (APN) je povolený"</string>
     <string name="carrier_enabled_summaryOff" msgid="4300790190221203756">"Názov prístupového bodu (APN) je zakázaný"</string>
     <string name="bearer" msgid="594270280031923558">"Operátor"</string>
+    <string name="mvno_type">MVNO typ</string>
+    <string name="mvno_match_data">MVNO hodnota</string>
     <string name="menu_delete" msgid="6981294422841124659">"Odstrániť názov prístupového bodu (APN)"</string>
     <string name="menu_new" msgid="3014205883303921729">"Nový názov prístupového bodu (APN)"</string>
     <string name="menu_save" msgid="8109345640668285399">"Uložiť"</string>
