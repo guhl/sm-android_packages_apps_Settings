@@ -1916,4 +1916,14 @@
     <string name="volume_adjust_sounds_enable_title">Son pour régler le volume</string>
     <!-- Sound settings screen, setting check box summary -->
     <string name="volume_adjust_sounds_enable_summary">Jouer un son lors du réglage du volume au moyen des boutons matériels</string>
+
+    <string name="wifi_mode">Mode</string>
+    <string name="wifi_mode_ibss">Réseau Ad-Hoc (IBSS)</string>
+    <string name="wifi_mode_ibss_short">Ad-Hoc</string>
+
+    <string name="wifi_ibss_freq_title">Canal / Fréquence</string>
+    <string name="wifi_channel">Canal</string>
+    <string name="wifi_mhz">MHz</string>
+	
+	
 </resources>
