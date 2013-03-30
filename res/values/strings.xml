@@ -4447,6 +4447,30 @@
     <!-- Sound settings screen, setting check box summary -->
     <string name="volume_adjust_sounds_enable_summary">Play sound when adjusting volume with hard keys</string>
 
+    <!-- Power menu enable disable -->
+    <string name="power_menu_title">Power menu</string> 
+    <string name="power_menu_expanded_desktop">Expanded desktop</string>
+    <string name="expanded_desktop_disabled">Disabled</string> 
+    <string name="expanded_desktop_status_bar">Status bar visible</string> 
+    <string name="expanded_desktop_no_status_bar">Status bar hidden</string> 
+    <string name="power_menu_reboot_title">Reboot menu</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_silent_title">Sound panel</string>
+
+    <!-- Quick/Pie Control -->
+    <string name="pie_control_title">Pie controls</string>
+    <string name="pie_control_enabled">Enabled when Expanded desktop is active</string>
+    <string name="pie_control_disabled">Disabled</string>
+    <string name="pie_control_search_title">Show search button</string>
+    <string name="pie_control_size">Navigation key size</string>
+    <string name="pie_control_trigger_positions">Trigger positions</string>
+    <string name="pie_control_trigger_left">Left screen border</string>
+    <string name="pie_control_trigger_bottom">Bottom screen border</string>
+    <string name="pie_control_trigger_right">Right screen border</string>
+    <string name="pie_control_trigger_top">Top screen border</string>
+    <string name="pie_control_trigger_top_summary">Only navigation will be displayed at top</string>
+
     <!-- Status bar  -->
     <string name="status_bar_title">Status bar</string>
     <string name="status_bar_clock_title">Clock</string>
@@ -4463,6 +4487,46 @@
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across status bar</string>
     <string name="status_bar_toggle_info">Automatic brightness must be disabled</string>
+
+    <!-- Display settings screen, notification light settings -->
+    <string name="category_notification_pulse_title">LED customization</string>
+    <string name="notification_pulse_title">Notification light</string>
+    <string name="notification_light_add_app">Add application</string>
+    <string name="notification_light_choose_app">Choose application</string>
+    <string name="notification_light_general_title">General</string>
+    <string name="notification_light_applist_title">Applications</string>
+    <string name="notification_light_phonelist_title">Phone</string>
+    <string name="notification_light_use_custom">Use custom values</string>
+    <string name="notification_light_enabled">Enabled</string>
+    <string name="notification_light_disabled">Disabled</string>
+    <string name="notification_light_default_value">Default</string>
+    <string name="notification_light_missed_call_title">Missed call</string>
+    <string name="notification_light_voicemail_title">Voicemail</string>
+
+    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">Edit light settings</string>
+    <string name="pulse_speed_title">Pulse length and speed</string>
+    <string name="picker_arrow">→</string>
+    <string name="default_time">Normal</string>
+    <string name="custom_time">Custom</string>
+    <string name="dialog_test">Test</string>
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="dialog_test_message">Turn the screen off to see the selected notification in action or dismiss this dialog to stop the test</string>
+    <string name="dialog_test_button">Dismiss</string>
+
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">Always on</string>
+    <string name="pulse_length_very_short">Very short</string>
+    <string name="pulse_length_short">Short</string>
+    <string name="pulse_length_normal">Normal</string>
+    <string name="pulse_length_long">Long</string>
+    <string name="pulse_length_very_long">Very long</string>
+    <string name="pulse_speed_very_fast">Very fast</string>
+    <string name="pulse_speed_fast">Fast</string>
+    <string name="pulse_speed_normal">Normal</string>
+    <string name="pulse_speed_slow">Slow</string>
+    <string name="pulse_speed_very_slow">Very slow</string>
 
     <!-- Kill app long-press back -->
     <string name="kill_app_longpress_back">Kill app back button</string>
@@ -4506,6 +4570,10 @@
     <string name="icon_picker_search">Search</string>
     <string name="icon_picker_sms">Messaging</string>
     <string name="icon_picker_twitter">Twitter</string>
+
+    <!--- Lock clock -->
+    <string name="lock_clock_title">Clock widget</string>
+    <string name="lock_clock_summary">View or change how the \'Lock Clock\' Home and Lock screen widgets will display</string>
 
     <!-- String for IconPicker -->
     <string name="icon_picker_title">Choose icon source</string>
@@ -4599,46 +4667,6 @@
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
 
-    <!-- Display settings screen, notification light settings -->
-    <string name="category_notification_pulse_title">LED customization</string>
-    <string name="notification_pulse_title">Notification light</string>
-    <string name="notification_light_add_app">Add application</string>
-    <string name="notification_light_choose_app">Choose application</string>
-    <string name="notification_light_general_title">General</string>
-    <string name="notification_light_applist_title">Applications</string>
-    <string name="notification_light_phonelist_title">Phone</string>
-    <string name="notification_light_use_custom">Use custom values</string>
-    <string name="notification_light_enabled">Enabled</string>
-    <string name="notification_light_disabled">Disabled</string>
-    <string name="notification_light_default_value">Default</string>
-    <string name="notification_light_missed_call_title">Missed call</string>
-    <string name="notification_light_voicemail_title">Voicemail</string>
-
-    <!-- Notification light dialogs -->
-    <string name="edit_light_settings">Edit light settings</string>
-    <string name="pulse_speed_title">Pulse length and speed</string>
-    <string name="picker_arrow">→</string>
-    <string name="default_time">Normal</string>
-    <string name="custom_time">Custom</string>
-    <string name="dialog_test">Test</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
-    <string name="dialog_test_message">Turn the screen off to see the selected notification in action or dismiss this dialog to stop the test</string>
-    <string name="dialog_test_button">Dismiss</string>
-
-    <!-- Values for the notification light pulse spinners -->
-    <string name="pulse_length_always_on">Always on</string>
-    <string name="pulse_length_very_short">Very short</string>
-    <string name="pulse_length_short">Short</string>
-    <string name="pulse_length_normal">Normal</string>
-    <string name="pulse_length_long">Long</string>
-    <string name="pulse_length_very_long">Very long</string>
-    <string name="pulse_speed_very_fast">Very fast</string>
-    <string name="pulse_speed_fast">Fast</string>
-    <string name="pulse_speed_normal">Normal</string>
-    <string name="pulse_speed_slow">Slow</string>
-    <string name="pulse_speed_very_slow">Very slow</string>
-
     <!-- Volume rocker behaviours -->
     <string name="volume_rocker_category_title">Volume rocker behaviors</string>
     <!-- Volume rocker music control -->
@@ -4670,34 +4698,6 @@
     <!-- Waiver -->
     <string name="sabermod_waiver_title">Waiver</string>
     <string name="sabermod_waiver_body">Changing this setting may be against your state or government laws.\n\nIn selecting \'OK\' below, you acknowledge this warning and waive, indemnify and hold harmless SaberMod and its contributors from all legal liabilities.</string>
-
-    <!-- Power menu enable disable -->
-    <string name="power_menu_title">Power menu</string> 
-    <string name="power_menu_expanded_desktop">Expanded desktop</string>
-    <string name="expanded_desktop_disabled">Disabled</string> 
-    <string name="expanded_desktop_status_bar">Status bar visible</string> 
-    <string name="expanded_desktop_no_status_bar">Status bar hidden</string> 
-    <string name="power_menu_reboot_title">Reboot menu</string>
-    <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
-    <string name="power_menu_silent_title">Sound panel</string>
-
-    <!-- Quick/Pie Control -->
-    <string name="pie_control_title">Pie controls</string>
-    <string name="pie_control_enabled">Enabled when Expanded desktop is active</string>
-    <string name="pie_control_disabled">Disabled</string>
-    <string name="pie_control_search_title">Show search button</string>
-    <string name="pie_control_size">Navigation key size</string>
-    <string name="pie_control_trigger_positions">Trigger positions</string>
-    <string name="pie_control_trigger_left">Left screen border</string>
-    <string name="pie_control_trigger_bottom">Bottom screen border</string>
-    <string name="pie_control_trigger_right">Right screen border</string>
-    <string name="pie_control_trigger_top">Top screen border</string>
-    <string name="pie_control_trigger_top_summary">Only navigation will be displayed at top</string>
-
-    <!--- Lock clock -->
-    <string name="lock_clock_title">Clock widget</string>
-    <string name="lock_clock_summary">View or change how the \'Lock Clock\' Home and Lock screen widgets will display</string>
 
    <!-- SABER MODS END -->
 </resources>
