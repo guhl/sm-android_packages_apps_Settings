@@ -39,15 +39,17 @@ public class SystemSettings extends SettingsPreferenceFragment implements
     private static final String TAG = "SystemSettings";
 
     private static final String KEY_STATUS_BAR = "status_bar";
+    private static final String KEY_NAVIGATION_BAR_CATEGORY = "navigation_bar_category";
     private static final String KEY_NAVIGATION_BAR = "navigation_bar";
+    private static final String KEY_LOCKSCREEN_CATEGORY = "lockscreen_category";
     private static final String KEY_LOCKSCREEN_TARGETS = "lockscreen_targets";
+    private static final String KEY_LOCK_CLOCK = "lock_clock";
     private static final String KEY_VOLUME_ROCKER_SETTINGS = "volume_rocker_settings";
     private static final String QUICK_SETTINGS_CATEGORY = "quick_settings_category";
     private static final String QUICK_PULLDOWN = "quick_pulldown";
     private static final String KEY_NOTIFICATION_PULSE_CATEGORY = "category_notification_pulse";
     private static final String KEY_NOTIFICATION_PULSE = "notification_pulse";
     private static final String KEY_PIE_CONTROL = "pie_control";
-    private static final String KEY_LOCK_CLOCK = "lock_clock";
 
     private PreferenceScreen mNotificationPulse;
     private PreferenceCategory mQuickSettingsCategory;
@@ -72,8 +74,10 @@ public class SystemSettings extends SettingsPreferenceFragment implements
         } else {
             // NON USER_OWNER is logged in
             // remove non multi-user compatible settings
+            getPreferenceScreen().removePreference(findPreference(KEY_PIE_CONTROL));
             getPreferenceScreen().removePreference(findPreference(KEY_STATUS_BAR));
             getPreferenceScreen().removePreference(findPreference(KEY_NAVIGATION_BAR));
+            getPreferenceScreen().removePreference((PreferenceCategory) findPreference(KEY_NAVIGATION_BAR_CATEGORY));
         }
 
         // Notification lights

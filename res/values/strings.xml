@@ -4531,6 +4531,9 @@
     <string name="kill_app_longpress_back">Kill app back button</string>
     <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key</string>
 
+    <!-- Lock Screen Category -->
+    <string name="lockscreen_title_general">Lock screen general</string>
+
     <!-- Lock Screen Shortcuts -->
     <string name="lockscreen_target_info">Drag the slider to targets to assign shortcuts</string>
     <string name="lockscreen_target_title">Lock screen shortcuts</string>
@@ -4615,6 +4618,7 @@
     <string name="themes_settings_title">Themes</string>
 
     <!-- Navigation Bar -->
+    <string name="navigation_bar_title_general">NavBar general</string>
     <string name="navigation_bar_title">Navigation bar</string>
     <string name="navigation_bar_help_text">1 - To begin editing, tap the lock icon\n\n2 - Tap any button to assign or change functionality\n\n3 - Long press any button to rearrange the order\n\n4 - To save, tap the lock icon again\n\n5 - To restore system default, tap the reset button\n\n</string>
     <string name="navigation_bar_tips">&#8226; Actions can only be assigned to one button at a time\n\n&#8226; The home button cannot be re-assigned\n\n&#8226; Side buttons cannot be rearranged</string>
@@ -4646,6 +4650,7 @@
     <string name="adb_notify">USB debugging notify</string>
     <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
 
+    <!-- Quick Settings -->
     <string name="quick_settings_title_general">Quick Settings</string>
     <string name="title_quick_pulldown">Quick pulldown</string>
     <string name="summary_quick_pulldown">%1$s edge of the status bar pulls down Quick Settings</string>
