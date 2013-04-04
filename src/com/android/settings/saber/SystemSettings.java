@@ -50,6 +50,7 @@ public class SystemSettings extends SettingsPreferenceFragment implements
     private static final String KEY_NOTIFICATION_PULSE_CATEGORY = "category_notification_pulse";
     private static final String KEY_NOTIFICATION_PULSE = "notification_pulse";
     private static final String KEY_PIE_CONTROL = "pie_control";
+    private static final String KEY_POWER_MENU = "power_menu";
 
     private PreferenceScreen mNotificationPulse;
     private PreferenceCategory mQuickSettingsCategory;
@@ -74,18 +75,20 @@ public class SystemSettings extends SettingsPreferenceFragment implements
         } else {
             // NON USER_OWNER is logged in
             // remove non multi-user compatible settings
-            getPreferenceScreen().removePreference(findPreference(KEY_PIE_CONTROL));
-            getPreferenceScreen().removePreference(findPreference(KEY_STATUS_BAR));
-            getPreferenceScreen().removePreference(findPreference(KEY_NAVIGATION_BAR));
-            getPreferenceScreen().removePreference((PreferenceCategory) findPreference(KEY_NAVIGATION_BAR_CATEGORY));
+            prefScreen.removePreference(findPreference(KEY_PIE_CONTROL));
+            prefScreen.removePreference(findPreference(KEY_STATUS_BAR));
+            prefScreen.removePreference(findPreference(KEY_NAVIGATION_BAR));
+            prefScreen.removePreference((PreferenceCategory) findPreference(KEY_NAVIGATION_BAR_CATEGORY));
+            prefScreen.removePreference(findPreference(KEY_POWER_MENU));
         }
 
+        // Preferences that applies to all users
         // Notification lights
         mNotificationPulse = (PreferenceScreen) findPreference(KEY_NOTIFICATION_PULSE);
         if (mNotificationPulse != null) {
             if (!getResources().getBoolean(com.android.internal.R.bool.config_intrusiveNotificationLed)) {
-                getPreferenceScreen().removePreference(mNotificationPulse);
-                getPreferenceScreen().removePreference((PreferenceCategory) findPreference(KEY_NOTIFICATION_PULSE_CATEGORY));
+                prefScreen.removePreference(mNotificationPulse);
+                prefScreen.removePreference((PreferenceCategory) findPreference(KEY_NOTIFICATION_PULSE_CATEGORY));
                 mNotificationPulse = null;
             }
         }
@@ -98,8 +101,8 @@ public class SystemSettings extends SettingsPreferenceFragment implements
         mQuickPulldown = (ListPreference) getPreferenceScreen().findPreference(QUICK_PULLDOWN);
         if (!Utils.isPhone(getActivity())) {
             if(mQuickPulldown != null)
-                getPreferenceScreen().removePreference(mQuickPulldown);
-                getPreferenceScreen().removePreference((PreferenceCategory) findPreference(QUICK_SETTINGS_CATEGORY));
+                prefScreen.removePreference(mQuickPulldown);
+                prefScreen.removePreference((PreferenceCategory) findPreference(QUICK_SETTINGS_CATEGORY));
             } else {
                 mQuickPulldown.setOnPreferenceChangeListener(this);
                 int quickPulldownValue = Settings.System.getInt(getActivity().getApplicationContext().getContentResolver(),
