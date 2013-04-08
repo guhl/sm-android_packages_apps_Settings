@@ -4458,10 +4458,10 @@
     <string name="power_menu_airplane_title">Airplane mode</string>
     <string name="power_menu_silent_title">Sound panel</string>
 
-    <!-- Quick/Pie Control -->
+    <!-- Pie controls -->
     <string name="pie_control_title">Pie controls</string>
-    <string name="pie_control_enabled">Enabled when Expanded desktop is active</string>
-    <string name="pie_control_disabled">Disabled</string>
+    <string name="pie_control_enabled">Floating controls when Expanded desktop is enabled</string>
+    <string name="pie_control_disabled">Floating controls disabled</string>
     <string name="pie_control_size">Navigation key size</string>
     <string name="pie_control_trigger_positions">Trigger positions</string>
     <string name="pie_control_trigger_left">Left screen border</string>
