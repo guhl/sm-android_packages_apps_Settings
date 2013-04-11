@@ -43,6 +43,7 @@ public class SystemSettings extends SettingsPreferenceFragment implements
     private static final String KEY_NAVIGATION_BAR_CATEGORY = "navigation_bar_category";
     private static final String KEY_NAVIGATION_BAR = "navigation_bar";
     private static final String KEY_LOCKSCREEN_CATEGORY = "lockscreen_category";
+    private static final String KEY_NAVIGATION_RING = "navigation_ring";
     private static final String KEY_LOCKSCREEN_TARGETS = "lockscreen_targets";
     private static final String KEY_LOCK_CLOCK = "lock_clock";
     private static final String KEY_VOLUME_ROCKER_SETTINGS = "volume_rocker_settings";
@@ -83,6 +84,7 @@ public class SystemSettings extends SettingsPreferenceFragment implements
             prefScreen.removePreference((PreferenceCategory) findPreference(KEY_NAVIGATION_BAR_CATEGORY));
             prefScreen.removePreference(findPreference(KEY_POWER_MENU));
             prefScreen.removePreference(findPreference(KEY_USER_INTERFACE));
+            prefScreen.removePreference(findPreference(KEY_NAVIGATION_RING));
         }
 
         // User Interface. Only show on selected devices
