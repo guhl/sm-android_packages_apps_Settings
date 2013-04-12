@@ -53,6 +53,7 @@ public class SystemSettings extends SettingsPreferenceFragment implements
     private static final String KEY_PIE_CONTROL = "pie_control";
     private static final String KEY_POWER_MENU = "power_menu";
 
+    private PreferenceScreen mUserInterface;
     private PreferenceScreen mNotificationPulse;
     private PreferenceCategory mQuickSettingsCategory;
     private ListPreference mQuickPulldown;
@@ -82,6 +83,15 @@ public class SystemSettings extends SettingsPreferenceFragment implements
             prefScreen.removePreference((PreferenceCategory) findPreference(KEY_NAVIGATION_BAR_CATEGORY));
             prefScreen.removePreference(findPreference(KEY_POWER_MENU));
             prefScreen.removePreference(findPreference(KEY_USER_INTERFACE));
+        }
+
+        // User Interface. Only show on selected devices
+        mUserInterface = (PreferenceScreen) findPreference(KEY_USER_INTERFACE);
+        if (mUserInterface != null) {
+            if (!getResources().getBoolean(R.bool.config_show_user_interface)) {
+                getPreferenceScreen().removePreference(mUserInterface);
+                mUserInterface = null;
+            }
         }
 
         // Preferences that applies to all users
