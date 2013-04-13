@@ -78,13 +78,14 @@ public class SystemSettings extends SettingsPreferenceFragment implements
         } else {
             // NON USER_OWNER is logged in
             // remove non multi-user compatible settings
-            prefScreen.removePreference(findPreference(KEY_PIE_CONTROL));
             prefScreen.removePreference(findPreference(KEY_STATUS_BAR));
+            prefScreen.removePreference(findPreference(KEY_PIE_CONTROL));
             prefScreen.removePreference(findPreference(KEY_NAVIGATION_BAR));
+            prefScreen.removePreference(findPreference(KEY_NAVIGATION_RING));
             prefScreen.removePreference((PreferenceCategory) findPreference(KEY_NAVIGATION_BAR_CATEGORY));
             prefScreen.removePreference(findPreference(KEY_POWER_MENU));
             prefScreen.removePreference(findPreference(KEY_USER_INTERFACE));
-            prefScreen.removePreference(findPreference(KEY_NAVIGATION_RING));
+
         }
 
         // User Interface. Only show on selected devices
