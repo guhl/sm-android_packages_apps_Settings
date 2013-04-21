@@ -4677,10 +4677,6 @@
     <string name="volbtn_music_controls_title">Volume rocker music controls</string>
     <string name="volbtn_music_controls_summary">When screen off, long-pressing the volume rockers will seek music tracks</string>
 
-    <!-- Swap volume buttons when the screen is rotated -->
-    <string name="swap_volume_buttons_title">Swap volume buttons</string>
-    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
-
     <!--- Volume key cursor control -->
     <string name="volume_key_cursor_control_title">Volume key cursor control</string>
     <string name="volume_key_cursor_control_off">Disabled</string>
