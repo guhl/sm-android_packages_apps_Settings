@@ -4686,6 +4686,7 @@
 
     <!--  User Interface -->
     <string name="user_interface_title">User interface</string>
+    <string name="user_interface_category_general">General</string>
     <string name="dual_pane_prefs_title">Dual pane preferences</string>
     <string name="dual_pane_prefs_summary">%1$s</string>
     <string name="dual_pane_prefs_on">Enabled</string>
@@ -4723,5 +4724,10 @@
     <!-- Sound settings, power notifications label for ringtone == none -->
     <string name="power_notifications_ringtone_silent">Silent</string>
 
+    <!-- Wake up on charger -->
+    <string name="user_interface_category_display">Display</string>
+    <string name="wakeup_when_plugged_unplugged_title">Wake up when plugged/unplugged</string>
+
    <!-- SABER MODS END -->
+
 </resources>
