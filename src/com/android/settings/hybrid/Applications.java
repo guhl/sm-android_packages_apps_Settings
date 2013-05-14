@@ -21,6 +21,7 @@ import android.util.ExtendedPropertiesUtils;
 import android.widget.Toast;
 
 import com.android.settings.R;
+import com.android.settings.beerbong.CMDProcessor;
 
 public class Applications {
 
