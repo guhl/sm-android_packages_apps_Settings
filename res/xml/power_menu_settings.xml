@@ -27,6 +27,11 @@
         android:persistent="false" />
 
     <CheckBoxPreference
+        android:key="power_menu_power_off_lock_screen"
+        android:title="@string/power_menu_power_off_lock_screen_title"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
         android:key="power_menu_reboot"
         android:title="@string/power_menu_reboot_title"
         android:defaultValue="true" />
