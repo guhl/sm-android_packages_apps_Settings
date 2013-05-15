@@ -33,12 +33,14 @@ public class PowerMenu extends SettingsPreferenceFragment implements
     private static final String TAG = "PowerMenu";
 
     private static final String KEY_EXPANDED_DESKTOP = "power_menu_expanded_desktop";
+    private static final String KEY_POWER_OFF_LOCK_SCREEN = "power_menu_power_off_lock_screen";
     private static final String KEY_REBOOT = "power_menu_reboot";
     private static final String KEY_SCREENSHOT = "power_menu_screenshot";
     private static final String KEY_AIRPLANE = "power_menu_airplane";
     private static final String KEY_SILENT = "power_menu_silent";
 
-    ListPreference mExpandedDesktopPref; 
+    ListPreference mExpandedDesktopPref;
+    private CheckBoxPreference mPowerOffLockScreenPref;
     private CheckBoxPreference mRebootPref;
     private CheckBoxPreference mScreenshotPref;
     private CheckBoxPreference mAirplanePref;
@@ -56,6 +58,10 @@ public class PowerMenu extends SettingsPreferenceFragment implements
         int expandedDesktopValue = Settings.System.getInt(getContentResolver(), Settings.System.EXPANDED_DESKTOP_STYLE, 0);
         mExpandedDesktopPref.setValue(String.valueOf(expandedDesktopValue));
         updateExpandedDesktopSummary(expandedDesktopValue);
+
+        mPowerOffLockScreenPref = (CheckBoxPreference) findPreference(KEY_POWER_OFF_LOCK_SCREEN);
+        mPowerOffLockScreenPref.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.POWER_MENU_POWER_OFF_LOCK_SCREEN_ENABLED, 1) == 1));
 
         mRebootPref = (CheckBoxPreference) findPreference(KEY_REBOOT);
         mRebootPref.setChecked((Settings.System.getInt(getContentResolver(),
@@ -93,6 +99,11 @@ public class PowerMenu extends SettingsPreferenceFragment implements
             value = mScreenshotPref.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.POWER_MENU_SCREENSHOT_ENABLED,
+                    value ? 1 : 0);
+        } else if (preference == mPowerOffLockScreenPref) {
+            value = mPowerOffLockScreenPref.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.POWER_MENU_POWER_OFF_LOCK_SCREEN_ENABLED,
                     value ? 1 : 0);
         } else if (preference == mRebootPref) {
             value = mRebootPref.isChecked();
