@@ -3648,10 +3648,6 @@
          [CHAR LIMIT=40] -->
     <string name="sound_category_system_title">System</string>
 
-    <!-- Category title for headset specific Settings.
-         [CHAR LIMIT=40] -->
-    <string name="headset_category_title">Headset</string>
-
     <!-- Wifi Setup For Setup Wizard with XL screen -->
     <!-- Title shown in Wifi Setup Wizard with XL screen -->
     <string name="wifi_setup_title">Wi-Fi setup</string>
@@ -4675,10 +4671,6 @@
     <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
     <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
 
-    <!-- Launch music player when headset is connected -->
-    <string name="headset_connect_player_title">Launch music app</string>
-    <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
-
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_volume_title">Safe headset volume</string>
     <string name="safe_headset_volume_summary">Prevent loud volume levels when headset is first plugged in</string>
@@ -4717,6 +4709,7 @@
     <!-- Category title for power sound notification specific Settings.
          [CHAR LIMIT=40] -->
     <string name="power_notifications_category_title">Power sounds</string>
+
 
     <!-- Sound settings, power notifications enable/disable, setting check box label -->
     <string name="power_notifications_enable_title">Enable</string>
