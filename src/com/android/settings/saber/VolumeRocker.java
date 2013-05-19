@@ -30,8 +30,10 @@ import com.android.settings.SettingsPreferenceFragment;
 
 public class VolumeRocker extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
+    private static final String KEY_VOLBTN_MUSIC_CTRL = "volbtn_music_controls";
     private static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
 
+    private CheckBoxPreference mVolBtnMusicCtrl;
     private ListPreference mVolumeKeyCursorControl;
 
     @Override
@@ -40,6 +42,10 @@ public class VolumeRocker extends SettingsPreferenceFragment implements OnPrefer
 
         addPreferencesFromResource(R.xml.volume_rocker_settings);
 
+        mVolBtnMusicCtrl = (CheckBoxPreference) findPreference(KEY_VOLBTN_MUSIC_CTRL);
+        mVolBtnMusicCtrl.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
+                   Settings.System.VOLBTN_MUSIC_CONTROLS, 0) == 1);
+
         mVolumeKeyCursorControl = (ListPreference) findPreference(VOLUME_KEY_CURSOR_CONTROL);
         if(mVolumeKeyCursorControl != null) {
             mVolumeKeyCursorControl.setOnPreferenceChangeListener(this);
@@ -47,6 +53,17 @@ public class VolumeRocker extends SettingsPreferenceFragment implements OnPrefer
                     .getContentResolver(), Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0)));
             mVolumeKeyCursorControl.setSummary(mVolumeKeyCursorControl.getEntry());
         }
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+        if (preference == mVolBtnMusicCtrl) {
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.VOLBTN_MUSIC_CONTROLS,
+                    mVolBtnMusicCtrl.isChecked()
+                    ? 1 : 0);
+        }
+        return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
