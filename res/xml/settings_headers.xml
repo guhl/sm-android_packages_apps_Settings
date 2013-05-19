@@ -61,7 +61,7 @@
     <!-- SABER MODS START -->
     <header android:title="@string/header_category_interface" />
     
-    <!-- System -->
+	<!-- System -->
     <header
         android:id="@+id/system_settings"
         android:icon="@drawable/ic_settings_system"
@@ -69,6 +69,13 @@
         android:title="@string/system_settings_title" />
     
     <!-- SABER MODS END -->
+	
+	<!-- Hybrid -->
+    <header
+        android:id="@+id/hybrid_settings"
+        android:title="@string/hybrid_settings_title"
+        android:icon="@drawable/ic_settings_jellybeer"
+        android:fragment="com.android.settings.hybrid.HybridSettings" />
 
     <!-- Themes -->
     <header

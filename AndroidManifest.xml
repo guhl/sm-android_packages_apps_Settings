@@ -1558,6 +1558,8 @@
         <activity android:name=".saber.PowerMenu" /> 
 
         <!-- SABER MODS END -->
+        
+        <activity android:name=".hybrid.HybridSettings" />
 
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"

@@ -15,13 +15,7 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/volume_rocker_category_title" >
-    
-    <CheckBoxPreference
-        android:key="volbtn_music_controls"
-        android:title="@string/volbtn_music_controls_title"
-        android:summary="@string/volbtn_music_controls_summary"
-        android:persistent="false" />
-    
+
     <ListPreference
         android:key="volume_key_cursor_control"
         android:persistent="false"
